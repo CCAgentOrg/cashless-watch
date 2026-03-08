@@ -5,10 +5,10 @@ theme = 'PaperMod'
 
 [params]
   author = 'CashlessConsumer'
-  description = 'Daily Indian Fintech & Banking News – UPI, RBI updates, startup funding, digital payments.'
-  defaultTheme = 'auto'
+  description = 'Daily Indian Fintech & Banking News – UPI, RBI updates, startup funding, digital payments innovation.'
+  keywords = ['Fintech', 'India', 'UPI', 'RBI', 'SEBI', 'Startups', 'Payments', 'Banking']
+  images = ['https://newsletter.cashlessconsumer.in/cover.png']
   ShowReadingTime = true
-  ShowShareButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
@@ -22,18 +22,60 @@ theme = 'PaperMod'
   hideSummary = false
   showtoc = true
   tocopen = false
+  enableEmoji = true
 
   [params.homeInfoParams]
-    Title = '🇮🇳 Indian Fintech News'
-    Content = 'Daily updates, analysis, and insights on the Indian fintech and banking ecosystem. Stay informed about RBI regulations, UPI developments, funding rounds, and digital payments innovation.'
+    Title = "CashlessConsumer Fintech"
+    Content = "India's automated fintech intelligence — daily briefs on UPI, RBI, startups, funding & policy. Plus themed deep dives every day at 8:30 AM."
+
+  [[params.profileMode.buttons]]
+    name = "📰 Latest Posts"
+    url = "posts"
+    weight = 10
+
+  [[params.profileMode.buttons]]
+    name = "ℹ️ About"
+    url = "about"
+    weight = 20
+
+  [[params.profileMode.buttons]]
+    name = "🤖 Agents"
+    url = "agents"
+    weight = 30
+
+  [params.assets]
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon-16x16.png"
+    favicon32x32 = "/favicon-32x32.png"
+    apple_touch_icon = "/apple-touch-icon.png"
+
+  [params.cover]
+    hidden = true
+    hiddenInList = false
+    hiddenInSingle = false
+
+  [params.editPost]
+    URL = "https://github.com/CCAgentOrg/fintech-news-hugo/content"
+    Text = "✏️ Suggest Changes"
+    appendFilePath = true
+
+  [params.author]
+    name = "CashlessConsumer"
+    email = ""
+    link = "https://cashlessconsumer.in"
+    bio = "Consumer advocacy & research for India's digital payments ecosystem"
 
   [[params.socialIcons]]
     name = 'github'
-    url = 'https://github.com/cashlessconsumer'
+    url = 'https://github.com/CCAgentOrg/fintech-news-hugo'
 
   [[params.socialIcons]]
     name = 'twitter'
-    url = 'https://twitter.com/cashlessconsumer'
+    url = 'https://twitter.com/CashlessConsumer'
+
+  [[params.socialIcons]]
+    name = 'rss'
+    url = 'index.xml'
 
 [menu]
   [[menu.main]]
@@ -49,22 +91,48 @@ theme = 'PaperMod'
     weight = 20
 
   [[menu.main]]
-    identifier = 'tags'
-    name = '🏷️ Tags'
-    url = '/tags/'
+    identifier = 'agents'
+    name = '🤖 Agents'
+    url = '/agents/'
     weight = 30
-
-  [[menu.main]]
-    identifier = 'rss'
-    name = '📡 RSS'
-    url = '/index.xml'
-    weight = 40
 
   [[menu.main]]
     identifier = 'about'
     name = 'ℹ️ About'
     url = '/about/'
+    weight = 40
+
+  [[menu.main]]
+    identifier = 'tags'
+    name = '🏷️ Tags'
+    url = '/tags/'
     weight = 50
+
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
+
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+  [services.twitter]
+    disableInlineCSS = true
 
 [outputs]
   home = ['HTML', 'RSS', 'JSON']

@@ -14,7 +14,7 @@ description: "Full agent instruction for the Daily Fintech Brief — CashlessCon
 | Property | Value |
 |----------|-------|
 | **Name** | Daily Fintech Brief |
-| **Blog** | CashlessConsumer Fintech News |
+| **Blog** | Cashless Watch |
 | **Schedule** | Daily @ 8:00 AM IST |
 | **Coverage** | Last 24 hours |
 | **Model** | minimax-m2.5 |
@@ -149,7 +149,7 @@ description: "Daily roundup of Indian fintech: RBI, UPI, startups, funding & pol
 ### 4. Publishing Commands
 
 ```bash
-cd /home/.z/workspaces/fintech-news-hugo
+cd /home/.z/workspaces/cashless-watch
 git checkout main
 git pull origin main
 cat > content/posts/$(date +%Y-%m-%d)-fintech-brief.md << 'EOF'
@@ -185,4 +185,4 @@ git push origin main
 
 ---
 
-*This agent is part of the CashlessConsumer Fintech News project. All agent instructions are open source under CC BY-SA 4.0.*
+*This agent is part of the Cashless Watch project. All agent instructions are open source under CC BY-SA 4.0.*

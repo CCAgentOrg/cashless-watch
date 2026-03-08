@@ -53,7 +53,7 @@ This blog is entirely automated by two AI agents:
 ```bash
 # Clone
 git clone https://github.com/CCAgentOrg/cashless-watch.git
-cd fintech-news-hugo
+cd cashless-watch
 
 # Install Hugo (extended version)
 # https://gohugo.io/installation/

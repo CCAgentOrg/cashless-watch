@@ -14,7 +14,7 @@ description: "Full agent instruction for the Themed Fintech Deep Dive — Cashle
 | Property | Value |
 |----------|-------|
 | **Name** | Themed Fintech Deep Dive |
-| **Blog** | CashlessConsumer Fintech News |
+| **Blog** | Cashless Watch |
 | **Schedule** | Daily @ 8:30 AM IST |
 | **Coverage** | Last 7 days |
 | **Model** | minimax-m2.5 |
@@ -158,7 +158,7 @@ description: "Weekly analysis of [Theme] in Indian fintech: APIs, startups, poli
 ### 5. Publishing Commands
 
 ```bash
-cd /home/.z/workspaces/fintech-news-hugo
+cd /home/.z/workspaces/cashless-watch
 git checkout main
 git pull origin main
 THEME=$(date +%A | tr '[:upper:]' '[:lower:]')
@@ -196,4 +196,4 @@ git push origin main
 
 ---
 
-*This agent is part of the CashlessConsumer Fintech News project. All agent instructions are open source under CC BY-SA 4.0.*
+*This agent is part of the Cashless Watch project. All agent instructions are open source under CC BY-SA 4.0.*

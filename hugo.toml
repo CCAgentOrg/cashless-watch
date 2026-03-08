@@ -1,4 +1,4 @@
-baseURL = 'https://newsletter.cashlessconsumer.in'
+baseURL = 'https://watch.cashlessconsumer.in'
 languageCode = 'en-us'
 title = 'Cashless Watch'
 theme = 'PaperMod'
@@ -6,7 +6,7 @@ theme = 'PaperMod'
 [params]
   description = 'Daily Indian Fintech & Banking News – UPI, RBI regulations, SEBI circulars, startup funding, digital payments innovation.'
   keywords = ['Fintech', 'India', 'UPI', 'RBI', 'SEBI', 'Startups', 'Payments', 'Banking']
-  images = ['https://newsletter.cashlessconsumer.in/cover.png']
+  images = ['https://watch.cashlessconsumer.in/cover.png']
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true

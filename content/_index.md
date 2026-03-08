@@ -12,7 +12,7 @@ draft: false
   "@type": "Blog",
   "name": "Cashless Watch",
   "description": "India's automated fintech intelligence",
-  "url": "https://newsletter.cashlessconsumer.in",
+  "url": "https://watch.cashlessconsumer.in",
   "publisher": {
     "@type": "Organization",
     "name": "Cashless Watch",
@@ -30,15 +30,15 @@ draft: false
 
 Daily fintech briefs on RBI, SEBI, NPCI, startups, funding & policy.
 
-[Latest Posts](https://newsletter.cashlessconsumer.in/posts/)
+[Latest Posts](https://watch.cashlessconsumer.in/posts/)
 |
-[📡 RSS Feed](https://newsletter.cashlessconsumer.in/index.xml)
+[📡 RSS Feed](https://watch.cashlessconsumer.in/index.xml)
 
 ### 🤖 Automated by AI Agents
 
 All content is AI-generated with source verification. View the agents or suggest improvements.
 
-[View Agents](https://newsletter.cashlessconsumer.in/agents/)
+[View Agents](https://watch.cashlessconsumer.in/agents/)
 |
 [Contribute](https://github.com/CCAgentOrg/cashless-watch)
 
@@ -46,4 +46,4 @@ All content is AI-generated with source verification. View the agents or suggest
 
 Autonomous agents monitor RBI, SEBI, NPCI & 25+ official sources. Daily briefs at 8:00 AM, themed deep dives at 8:30 AM.
 
-[Learn More →](https://newsletter.cashlessconsumer.in/about/)
+[Learn More →](https://watch.cashlessconsumer.in/about/)

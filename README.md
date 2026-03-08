@@ -4,7 +4,7 @@ An AI-powered, fully automated daily newsletter tracking India's fintech ecosyst
 
 ## 🌐 Live Site
 
-**URL**: https://newsletter.cashlessconsumer.in
+**URL**: https://watch.cashlessconsumer.in
 
 ## 🤖 How It Works
 
@@ -95,9 +95,9 @@ Submit issues/PRs to:
 
 ## 🔗 Connect
 
-- **Website**: https://newsletter.cashlessconsumer.in
-- **About**: https://newsletter.cashlessconsumer.in/about/
-- **Agents**: https://newsletter.cashlessconsumer.in/agents/
+- **Website**: https://watch.cashlessconsumer.in
+- **About**: https://watch.cashlessconsumer.in/about/
+- **Agents**: https://watch.cashlessconsumer.in/agents/
 - **GitHub**: https://github.com/CCAgentOrg/cashless-watch
 - **Main Site**: https://cashlessconsumer.in
 

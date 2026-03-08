@@ -119,7 +119,7 @@ theme = 'PaperMod'
     disable = true
   [privacy.instagram]
     disable = true
-  [privacy.twitter]
+  [privacy.x]
     disable = false
     enableDNT = true
   [privacy.vimeo]
@@ -130,7 +130,7 @@ theme = 'PaperMod'
 [services]
   [services.instagram]
     disableInlineCSS = true
-  [services.twitter]
+  [services.x]
     disableInlineCSS = true
 
 [outputs]

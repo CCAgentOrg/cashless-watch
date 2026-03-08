@@ -151,10 +151,6 @@ theme = 'PaperMod'
   showAuthors = false
 
 
-  [params.author]
-    name = "CashlessConsumer"
-    email = ""
-    link = "https://cashlessconsumer.in"
 
 [[menu.main]]
   identifier = 'explainers'

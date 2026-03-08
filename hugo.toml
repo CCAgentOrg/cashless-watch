@@ -1,11 +1,11 @@
-baseURL = 'https://cashlessconsumer.github.io/fintech-news'
+baseURL = 'https://newsletter.cashlessconsumer.in'
 languageCode = 'en-us'
 title = 'Indian Fintech News'
 theme = 'PaperMod'
 
 [params]
-  author = 'Cashless Consumer'
-  description = 'Daily updates on Indian Fintech and Banking'
+  author = 'CashlessConsumer'
+  description = 'Daily Indian Fintech & Banking News – UPI, RBI updates, startup funding, digital payments.'
   defaultTheme = 'auto'
   ShowReadingTime = true
   ShowShareButtons = true

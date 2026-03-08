@@ -1,123 +1,89 @@
 ---
-title: "About"
+title: "About Cashless Watch"
 date: 2026-03-08T10:00:00+05:30
 draft: false
-tags: ["About", "Fintech", "India", "Automation", "AI"]
+tags: ["About", "Meta"]
 categories: ["Meta"]
-description: "How the CashlessConsumer Fintech newsletter is generated using AI agents"
+description: "About Cashless Watch — India's automated fintech intelligence platform"
 ---
 
-# About CashlessConsumer Fintech
+# 👁️ Cashless Watch
 
-## What is this?
+**India's automated fintech intelligence platform**
 
-**CashlessConsumer Fintech** is an automated newsletter tracking India's rapidly evolving financial technology landscape. We cover startups, regulations, payments, lending, wealth tech, and infrastructure developments.
+Cashless Watch is a continuous monitoring system for India's rapidly evolving fintech landscape. We track, analyze, and report on developments that impact consumers, businesses, and the digital economy.
 
-## Coverage Areas
+## What We Watch
 
-| Category | Focus | Key Players & Topics |
-|----------|-------|---------------------|
-| **Regulatory** | RBI, SEBI, Finance Ministry | Circulars, guidelines, licensing, compliance |
-| **Payments** | UPI, cards, wallets, cross-border | [NPCI](https://www.npci.org.in), [Razorpay](https://razorpay.com), [PhonePe](https://www.phonepe.com), [Paytm](https://paytm.com) |
-| **Lending** | NBFCs, digital lending, co-lending | [Lendingkart](https://www.lendingkart.com), [KreditBee](https://www.kreditbee.in), [RBI Guidelines](https://www.rbi.org.in) |
-| **Wealth** | Broking, mutual funds, insurance | [Zerodha](https://zerodha.com), [Groww](https://groww.in), [Smallcase](https://smallcase.com), [ETMONEY](https://www.etmoney.com) |
-| **Infrastructure** | AA, OCEN, TReDS, Bharat BillPay | [Sahamati](https://sahamati.org.in), [NPCI](https://www.npci.org.in) |
-| **Funding** | Startups, IPOs, M&A | [Inc42](https://inc42.com), [Entrackr](https://entrackr.com), [The Ken](https://the-ken.com) |
+| Area | Focus |
+|------|-------|
+| **Payments** | UPI, wallets, cards, CBDC, cross-border |
+| **Regulation** | RBI circulars, SEBI orders, policy changes |
+| **Startups** | Funding rounds, launches, pivots, failures |
+| **Consumer Rights** | Grievances, ombudsman cases, refunds, fraud |
+| **Technology** | API changes, security, infrastructure |
+| **Global** | Cross-border developments, G20, international trends |
 
-## How Content is Generated
+## How It Works
 
-This newsletter is produced by **AI agents** running on [Zo Computer](https://zo.computer), an automated computing platform.
+🤖 **AI-Powered Agents**  
+Two specialized agents run daily:
+- **8:00 AM** — Daily Brief (24-hour coverage)
+- **8:30 AM** — Themed Deep Dive (weekday rotations)
 
-### The Agents
+Each post includes:
+- ✅ Verified sources with clickable links
+- 📊 Key statistics and trends
+- ⚖️ Consumer rights implications
+- 📰 Curated from 25+ oracle sources
 
-We run **2 specialized agents** that publish content daily:
+## Oracle Sources
 
-| Agent | Schedule | Coverage | Content |
-|-------|----------|----------|---------|
-| **Daily Fintech Brief** | 8:00 AM IST | Last 24 hours | Quick roundup of 3-5 top stories |
-| **Themed Deep Dive** | 8:30 AM IST | Last 7 days | Deep analysis by theme |
+### Regulatory (Primary Authority)
+- [RBI](https://rbi.org.in) — Circulars, master directions, payment system updates
+- [SEBI](https://sebi.gov.in) — Regulations, investor protection, securities
+- [NPCI](https://npci.org.in) — UPI, RuPay, system alerts
+- [MeitY](https://meity.gov.in) — Digital payments policy, DPDP Act
+- [DFS](https://dfs.gov.in) — Banking, financial inclusion
 
-### Content Rotation (Themed Deep Dive)
+### Industry & Startups
+- [Inc42](https://inc42.com) — Startup funding, sector analysis
+- [The Ken](https://the-ken.com) — Deep fintech reporting
+- [YourStory](https://yourstory.com) — Founder interviews, launches
+- [Entrackr](https://entrackr.com) — Startup ecosystem, funding
+- [Tracxn](https://tracxn.com) — Market maps, company tracking
 
-| Day | Theme | Focus |
-|-----|-------|-------|
-| Monday | **Developer & Technical** | APIs, SDKs, OCEN, AA specs, architecture |
-| Tuesday | **Buzz, Funding & Market Moves** | Startup funding, IPOs, acquisitions, exec hires |
-| Wednesday | **Google Play & App Ecosystem** | Policy changes, launches, rankings, developer relations |
-| Thursday | **International Payments** | Remittances, UPI global, forex, SWIFT alternatives |
-| Friday | **Policy & Regulation** | RBI, SEBI, Finance Ministry, consumer protection |
-| Saturday | **Fintech History** | 10-year lookbacks, platform evolution, oral history |
-| Sunday | **Deep Archives** | Repository curation, document archival, data releases |
+### Consumer Rights
+- [RBI Ombudsman](https://cms.rbi.org.in) — Grievance data, resolutions
+- [Consumer Affairs](https://consumeraffairs.nic.in) — Consumer protection alerts
+- [CERT-In](https://cert-in.org.in) — Cybersecurity, fraud warnings
+- [NCRP](https://cybercrime.gov.in) — Cyber crime reporting, trends
+- [SEBI SCORES](https://scores.sebi.gov.in) — Investor grievances
+- [FinMin CPGRAMS](https://pgportal.gov.in) — Public grievances
 
-## Data Sources
+### Technology & Data
+- [NPCI API Status](https://developer.npci.org.in) — System health, API changes
+- [UPI Developer](https://developer.upi.gov.in) — Technical updates
+- [Open Network for Digital Commerce (ONDC)](https://ondc.org) — Protocol updates
 
-| Category | Primary Oracles | Secondary Sources |
-|----------|-----------------|-------------------|
-| **Regulatory** | [RBI](https://www.rbi.org.in), [SEBI](https://www.sebi.gov.in) | Economic Times, Mint |
-| **Payments** | [NPCI](https://www.npci.org.in), UPI stats | Business Standard |
-| **Startups** | [Inc42](https://inc42.com), [Tracxn](https://tracxn.com) | YourStory, Entrackr |
-| **Markets** | [NSE](https://www.nseindia.com), [BSE](https://www.bseindia.com) | Financial Express |
-| **International** | [IMF India](https://www.imf.org/en/Countries/IND), [World Bank](https://www.worldbank.org/en/country/india) | The Ken (paywall) |
+### News & Commentary
+- [Economic Times — Fintech](https://economictimes.indiatimes.com/fintech) — Breaking news
+- [Livemint](https://livemint.com) — Policy analysis
+- [Business Standard](https://business-standard.com) — Banking, regulation
+- [Moneycontrol](https://moneycontrol.com) — Markets, companies
 
-## 🤖 Agent Source Code
+## Contribute
 
-The AI agents that generate this newsletter are **open source** and documented in detail:
+This blog is **open source**. The AI agents that generate content are version-controlled and community-improvable.
 
-| Agent | Schedule | Coverage | Source Code |
-|-------|----------|----------|-------------|
-| **Daily Fintech Brief** | Daily @ 8:00 AM IST | Last 24 hours across 8 categories | [View Agent Instructions →](/agents/daily-fintech-brief-agent/) |
-| **Themed Fintech Deep Dive** | Daily @ 8:30 AM IST | Last 7 days, rotating daily themes | [View Agent Instructions →](/agents/themed-fintech-deep-dive-agent/) |
+- [View Agents](https://github.com/CCAgentOrg/cashless-watch/tree/main/content/agents)
+- [Suggest Changes](https://github.com/CCAgentOrg/cashless-watch/issues)
+- [Edit on GitHub](https://github.com/CCAgentOrg/cashless-watch)
 
-### How to Improve the Agents
+## A CashlessConsumer Project
 
-These agents' instructions are version-controlled and open for community improvement:
-
-1. **Open an Issue**: [github.com/CCAgentOrg/cashless-watch/issues](https://github.com/CCAgentOrg/cashless-watch/issues)
-   - Suggest new oracle sources to check (RBI circulars, SEBI master circulars, etc.)
-   - Report coverage gaps or inaccuracies
-   - Propose new analysis frameworks
-
-2. **Submit a PR**: Edit the agent instruction files directly
-   - Fork the repo
-   - Modify `content/agents/*.md`
-   - Submit pull request with rationale
-
-3. **Review Changes**: Agent improvements are publicly visible and auditable
-
-## Human Oversight
-
-While content is AI-generated, it follows these principles:
-
-- ✅ **Sourced from verified channels** — RBI, SEBI, company statements, reputable news
-- ✅ **Cross-checked** — Major claims verified against multiple sources
-- ✅ **Fully linked** — Every URL is clickable to original sources
-- ✅ **Tagged & categorized** — Easy to find related content
-- ⚠️ **Not financial advice** — For information only; verify before decisions
-
-## About CashlessConsumer
-
-**CashlessConsumer** is a consumer advocacy and research initiative focused on India's digital payments and financial inclusion ecosystem.
-
-### Our Work
-- 📊 **Data & Research**: Tracking UPI, wallets, lending apps
-- 🔍 **Policy Analysis**: RBI circulars, SEBI regulations, data protection
-- 🛡️ **Consumer Advocacy**: Digital rights, grievance redressal, transparency
-- 📝 **Documentation**: Archiving fintech evolution in India
-
-### Connect With Us
-- 🐦 Twitter: [@CashlessConsumer](https://twitter.com/CashlessConsumer)
-- 💻 GitHub: [CCAgentOrg](https://github.com/CCAgentOrg)
-- 🌐 Website: [cashlessconsumer.in](https://cashlessconsumer.in)
-
-## Technical Stack
-
-- **Platform**: [Zo Computer](https://zo.computer) — AI agent infrastructure
-- **Site Generator**: [Hugo](https://gohugo.io) with [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme
-- **Hosting**: [GitHub Pages](https://pages.github.com) with custom domain
-- **Repository**: [github.com/CCAgentOrg/fintech-newsletter](https://github.com/CCAgentOrg/fintech-newsletter) *(update with actual repo)*
+🔗 **[cashlessconsumer.in](https://cashlessconsumer.in)** — Consumer advocacy & research for India's digital payments ecosystem
 
 ---
 
-*Last updated: March 8, 2026 | Agents active since March 2026*
-
-*© CashlessConsumer. AI-generated content with human oversight.*
+*All content is AI-generated with source verification and human oversight.*

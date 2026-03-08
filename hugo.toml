@@ -11,11 +11,7 @@ theme = 'stack'
   [params.sidebar]
     emoji = '💰'
     subtitle = 'AI-powered fintech intelligence'
-    
-  [params.sidebar.avatar]
-    enabled = true
-    local = true
-    src = 'avatar.png'
+    avatar = 'avatar.png'
 
 [menu]
   [[menu.main]]

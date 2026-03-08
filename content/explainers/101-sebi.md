@@ -239,6 +239,42 @@ SEBI Board
 
 ---
 
+## Consumer Rights Analysis
+
+### Investor Protection
+- SEBI mandates disclosure norms for listed companies
+- Investor awareness programs run by SEBI
+- Protective measures against market manipulation
+
+### Privacy Implications
+- Demat accounts linked to Aadhaar for KYC
+- Trading history creates behavioral profile
+- Algo trading data shared with regulatory authorities
+
+### Data Protection Concerns
+- **Trading Data**: SEBI collects detailed trading patterns
+- **Demat Records**: Shareholding details stored digitally
+- **IPO Applications**: Linked to bank accounts
+
+### User Risks
+- **Fraud**: Fake investment schemes, Ponzi schemes
+- **Market Volatility**: No guarantee on returns
+- **Cyber Crimes**: Trading account hacking
+
+### Safeguards
+- Verify scheme registration with SEBI
+- Use official platforms only
+- Enable two-factor authentication
+- Monitor Demat statements regularly
+
+### Complaints & Grievance Redressal
+- **SEBI SCORES**: scores.gov.in (Online grievance)
+- **Stock Exchanges**: NSE/BSE investor services
+- **Consumer Courts**: For investment disputes
+- **Cyber Crime**: For online fraud
+
+---
+
 ## Conclusion
 
 SEBI plays a crucial role in maintaining investor confidence and market integrity. Its regulations protect your investments and ensure fair trading practices. Understanding SEBI helps you navigate India's capital markets safely.

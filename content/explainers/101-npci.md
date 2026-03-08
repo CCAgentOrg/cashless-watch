@@ -211,15 +211,33 @@ NPCI enables:
 
 ---
 
-## Conclusion
+## Consumer Rights Analysis
 
-NPCI is the engine driving India's digital payment revolution. From UPI to RuPay, it has created world-class infrastructure that enables millions of transactions daily. Understanding NPCI helps you appreciate the technology behind every digital payment.
+### Privacy Implications
+- NPCI collects transaction metadata across all payment systems
+- Centralized database of all UPI, IMPS, RuPay transactions
+- Linking Aadhaar to payments creates comprehensive financial profile
 
-*Next in series: [101 Digital Payments →](/explainers/101-digital-payments/)*
+### Data Protection Concerns
+- **Data Retention**: Transaction data stored for 5+ years
+- **Third-Party Access**: Law enforcement access without warrant
+- **No Opt-Out**: Unlike Western systems, no data minimization option
 
----
+### User Risks
+- **Single Point of Failure**: NPCI outage affects all digital payments
+- **Interoperability Issues**: Cross-app transactions sometimes fail
+- **Fraud Liability**: Unclear liability in system failures
 
-*This is part of the Cashless Watch 101 Series - Simplifying Indian Fintech for everyone.*
+### Safeguards
+- Keep backup payment methods
+- Monitor transaction alerts
+- Report issues to NPCI helpline
+
+### Complaints & Grievance Redressal
+- **NPCI**: npci.org.in/contact-us
+- **Bank Ombudsman**: For bank-related issues
+- **RBI**: For regulatory complaints
+- **Consumer Forums**: For service disputes
 
 ---
 

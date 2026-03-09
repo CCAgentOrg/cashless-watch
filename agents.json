@@ -1,49 +1,60 @@
 {
-  "version": "1.0",
-  "blog": "Cashless Watch",
-  "url": "https://watch.cashlessconsumer.in",
-  "agents": [
+  "version": "2.0",
+  "last_updated": "2026-03-09",
+  "description": "Machine-readable agent registry for Cashless Watch",
+  "scheduled_agents": [
     {
       "id": "651b5ce7-9157-442e-99ab-9539d23df862",
       "name": "Daily Fintech Brief",
       "type": "scheduled",
-      "schedule": "Daily 8:00 AM",
-      "description": "Daily fintech news brief covering last 24 hours"
+      "schedule": "Daily 8:00 AM IST",
+      "description": "Top fintech news from last 24 hours",
+      "source_file": "content/agents/daily-brief-agent.md"
     },
     {
       "id": "0862617d-c763-4a0c-8340-b4647dbf30f7",
       "name": "Themed Deep Dive",
       "type": "scheduled",
-      "schedule": "Daily 8:30 AM",
-      "description": "Themed sector analysis covering last 7 days"
+      "schedule": "Daily 8:30 AM IST",
+      "description": "Rotating sector analysis (Mon-Fri)",
+      "source_file": "content/agents/themed-deep-dive-agent.md"
     },
     {
-      "id": "d23b2a7f-9157-431e-9130-a9d87e6b459356",
+      "id": "e8700c17-2800-434f-9d57-fdafed4190a1",
       "name": "Weekly Deep Research",
       "type": "scheduled",
-      "schedule": "Sundays 9:00 AM",
-      "description": "2000+ word comprehensive weekly analysis"
+      "schedule": "Sundays 9:00 AM IST",
+      "description": "2000+ word comprehensive analysis",
+      "source_file": "content/agents/weekly-deep-research-agent.md"
     },
     {
-      "id": "f58efc84-6f9d-432e-a130-5a87c9bf4543",
+      "id": "5d58a119-f5b2-4a7d-9996-084d165b23ed",
       "name": "Weekly Satire",
       "type": "scheduled",
-      "schedule": "Saturdays 10:00 AM",
-      "description": "Futuristic satire highlighting consumer rights threats"
+      "schedule": "Saturdays 10:00 AM IST",
+      "description": "Futuristic satire on consumer rights",
+      "source_file": "content/agents/weekly-satire-agent.md"
     },
     {
-      "id": "a84b9a46-0dd3-42e7-b15a-9e80ea6eab1b",
+      "id": "d23b2a7f-9156-4130-a977-d87e6b459356",
       "name": "101 Explainer Agent",
-      "type": "on-demand",
-      "trigger": "Manual request",
-      "description": "Generates encyclopedic explainer guides"
-    },
+      "type": "scheduled",
+      "schedule": "Wednesdays 9:00 AM IST",
+      "description": "Encyclopedic guides with consumer rights focus",
+      "source_file": "content/agents/101-explainer-agent.md"
+    }
+  ],
+  "on_demand_agents": [
     {
-      "id": "3f2e1a8c-9d4b-42f5-a8e1-7c6d5e3f2b1a",
-      "name": "Stakeholder Agent",
-      "type": "on-demand",
-      "trigger": "Manual request",
-      "description": "Generates stakeholder directory and relationship maps"
+      "id": "e9fb5d1f-1e03-4eba-8289-c3981bf38e2a",
+      "name": "Stakeholder Mapping Agent",
+      "type": "on_demand",
+      "trigger": "Manual via chat",
+      "description": "Fact-checked stakeholder maps with cross-verification",
+      "source_file": "content/agents/stakeholder-agent.md",
+      "version": "2.0",
+      "mission_included": true,
+      "cross_verification": true
     }
   ]
 }

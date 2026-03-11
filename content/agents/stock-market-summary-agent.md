@@ -2,9 +2,9 @@
 title: "Agent: CashlessWatch Stock Market Summary"
 date: 2026-03-11T08:15:00+05:30
 draft: false
-tags: ["Agents", "AI", "Stocks", "Markets", "Fintech"]
-categories: ["Meta"]
-description: "Stock market summary agent for Indian fintech/payment listed companies — CashlessConsumer's 8:15 AM market watch"
+tags: ["Agents", "AI", "Stocks", "Markets", "India"]
+categories: ["Agents"]
+description: "Pre-market summary of Indian indices, banking stocks, and pure-play fintech/paytech companies"
 ---
 
 # 🤖 Agent: CashlessWatch Stock Market Summary
@@ -14,9 +14,9 @@ description: "Stock market summary agent for Indian fintech/payment listed compa
 | Property | Value |
 |----------|-------|
 | **Name** | CashlessWatch Stock Market Summary |
-| **Blog** | CashlessConsumer CashlessWatch |
+| **Blog** | CashlessConsumer Fintech News |
 | **Schedule** | Market days (Mon-Fri) @ 8:15 AM IST |
-| **Coverage** | Indian fintech/paytech stocks, banking leaders, indices |
+| **Coverage** | Indices, Banks, Pure-play Fintech |
 | **Model** | minimax-m2.5 |
 | **Agent ID** | `1b340206-ec48-4a99-a301-eec308b11d22` |
 | **Last Updated** | March 11, 2026 |
@@ -25,244 +25,254 @@ description: "Stock market summary agent for Indian fintech/payment listed compa
 
 ## Mission
 
-Provide a quick 3-section tabular summary of Indian payment/fintech stocks, major banks with digital payments dominance, and key sectoral indices. Publish to the Hugo blog at https://github.com/CCAgentOrg/cashless-watch and send Telegram alert.
+Provide a quick 3-section summary of Indian stock markets focused on payment/fintech companies:
+1. **Indices** — Market direction
+2. **Banks** — Digital payments leaders
+3. **Pure-Play Fintech** — Core payment companies
+
+---
+
+## Oracle Sources
+
+### Tier 1 (Primary - NSE India Official)
+| Source | Endpoint | Data | Fallback |
+|--------|----------|------|----------|
+| NSE All Indices | `nseindia.com/api/allIndices` | Nifty 50, Bank, FinNifty | Yahoo Finance |
+| NSE Equity Indices | `nseindia.com/api/equity-stockIndices` | Bank stock quotes | Yahoo Finance |
+
+### Tier 2 (Secondary - Global)
+| Source | Endpoint | Data | Reliability |
+|--------|----------|------|-------------|
+| Yahoo Finance | `query1.finance.yahoo.com/v8/finance` | All stocks | High, no auth |
+| Moneycontrol | `moneycontrol.com` | Indian markets | HTML scraping |
+
+### Tier 3 (Fallback)
+| Source | Purpose |
+|--------|---------|
+| BSE India | If NSE fails |
+| Google Finance | Quick spot checks |
+
+---
+
+## Helper Scripts
+
+All helper scripts are in `scripts/` folder:
+
+### Main Runner
+| Script | Purpose |
+|--------|---------|
+| `stock-watch.sh` | Orchestrates full pipeline |
+
+**Usage:**
+```bash
+cd /home/.z/workspaces/con_PXCpywVCLwND9RsD/cashless-watch
+./scripts/stock-watch.sh [fetch|hugo|telegram|json|full]
+```
+
+### Data Fetching
+| Script | Purpose |
+|--------|---------|
+| `fetch-stock-data.py` | Fetches from oracle sources |
+
+**Outputs:** JSON with indices, banks, fintech data
+
+### Content Generation
+| Script | Purpose |
+|--------|---------|
+| `generate-hugo-post.py` | Creates Hugo markdown |
+
+**Inputs:** JSON from fetch-stock-data.py
+**Outputs:** `content/posts/YYYY-MM-DD-stock-watch.md`
+
+### Alert Delivery
+| Script | Purpose |
+|--------|---------|
+| `send-telegram-alert.py` | Sends Telegram alert |
+
+**Requires:** `TELEGRAM_BOT_TOKEN` env var
+
+---
+
+## Stock Universe
+
+### Indices
+- Nifty 50 (NSEI)
+- Nifty Bank (NSEBANK)
+- Nifty Financial Services (FINNIFTY)
+- Nifty IT (NSEIT)
+
+### Banks — Digital Payments Leaders
+| Symbol | Company | Why Included |
+|--------|---------|--------------|
+| HDFCBANK | HDFC Bank | 22% credit card market |
+| ICICIBANK | ICICI Bank | iMobile Pay, Apple Pay talks |
+| SBIN | SBI | Largest UPI volume, 19% cards |
+| AXISBANK | Axis Bank | Digital focus |
+| KOTAKBANK | Kotak Mahindra Bank | 811 digital bank |
+
+### Pure-Play Fintech/PayTech
+
+**Tier B1: Digital Payments & Wallets**
+- One97 Communications (Paytm) — NSE: PAYTM
+- MobiKwik — NSE: MOBIKWIK
+
+**Tier B2: Insurance & Credit Marketplaces**
+- PB Fintech (PolicyBazaar) — NSE: PBFINTECH
+
+**Tier B3: Payment Infrastructure & Gateways**
+- Infibeam Avenues — NSE: INFIBEAM
+- Pine Labs — NSE: PINELABS
+- NPST — NSE: NPST
+
+**Tier B4: Payments Banking & Cards**
+- Fino Payments Bank — NSE: FINOPB
+- SBI Cards — NSE: SBICARD
+
+**Tier B5: ATM & Cash (Peripheral)**
+- AGS Transact Technologies — NSE: AGSTRA — ⚠️ *Under CIRP*
+
+### Excluded
+- Nykaa, Zomato, RateGain — Not core fintech
+- RBL Bank, Federal Bank, IndusInd, Yes Bank — Full-service, less digital focus
 
 ---
 
 ## Agent Instruction (Source of Truth)
 
-### 1. Task
-Every market day (Monday-Friday) at 8:15 AM IST:
-1. Fetch pre-market/previous close data for indices
-2. Fetch stock data for banks (digital payments focus)
-3. Fetch stock data for pure-play fintech companies
-4. Research overnight news and analyst expectations
-5. Compile into a 3-section tabular summary
-6. Generate Hugo markdown with proper frontmatter
-7. Publish to `content/posts/YYYY-MM-DD-stock-watch.md`
-8. Push to GitHub
-9. Send Telegram alert
+### Step 1: Run Helper Script
+```bash
+cd /home/.z/workspaces/con_PXCpywVCLwND9RsD/cashless-watch
+./scripts/stock-watch.sh full
+```
 
-### 2. Watch Universe (TIER STRUCTURE)
+This runs:
+1. `fetch-stock-data.py` — Pulls from oracle sources
+2. `generate-hugo-post.py` — Creates Hugo markdown
+3. `send-telegram-alert.py` — Sends Telegram alert
+4. Git commit/push — Syncs to repository
 
-#### 📊 SECTION 1: INDICES (Market Direction)
-| Index | Ticker | Purpose |
-|-------|--------|---------|
-| **Nifty 50** | NIFTY50 | Broad market benchmark |
-| **Nifty Bank** | BANKNIFTY | 12 major banking stocks |
-| **Nifty Financial Services** | FINNIFTY | Banks + NBFCs + Insurance + Fintech |
-| **Nifty IT** | NIFTYIT | Tech/fintech enablement indicator |
-| **SGX Nifty** | SGXNIFTY | Pre-market sentiment (when available) |
+### Step 2: Verify Output
+Check `content/posts/YYYY-MM-DD-stock-watch.md` was created
 
-#### 🏦 SECTION 2: MAJOR BANKS — Digital Payments Leaders
-*Included for dominance in UPI, credit cards, digital payments*
+### Step 3: Manual Review (If Needed)
+- Spot-check 2-3 prices against NSE/Moneycontrol
+- Verify % change calculations
+- Confirm no data gaps in critical stocks
 
-| Company | Symbol | Digital Payments Edge |
-|---------|--------|----------------------|
-| **HDFC Bank** | HDFCBANK | 22% credit card market, ML fraud detection |
-| **ICICI Bank** | ICICIBANK | iMobile Pay, Apple Pay talks, strong digital |
-| **State Bank of India** | SBIN | 19% credit card share, largest UPI volume |
-| **Axis Bank** | AXISBANK | Digital focus, Apple Pay talks, credit cards |
-| **Kotak Mahindra Bank** | KOTAKBANK | 811 digital bank, innovative UPI |
-
-#### 💳 SECTION 3: PURE-PLAY FINTECH/PAYTECH
-
-**Tier B1: Digital Payments & Wallets**
-| Company | Symbol | Focus |
-|---------|--------|-------|
-| **One97 Communications (Paytm)** | PAYTM | India's largest digital payments, UPI leader |
-| **MobiKwik** | MOBIKWIK | Mobile wallet, digital credit, 183M+ users |
-
-**Tier B2: Insurance & Credit Marketplaces**
-| Company | Symbol | Focus |
-|---------|--------|-------|
-| **PB Fintech (PolicyBazaar)** | PBFINTECH | Insurance aggregation, Paisabazaar |
-
-**Tier B3: Payment Infrastructure & Gateways**
-| Company | Symbol | Focus |
-|---------|--------|-------|
-| **Infibeam Avenues** | INFIBEAM | Enterprise payment gateway |
-| **Pine Labs** | PINELABS | Merchant payments, POS terminals |
-| **NPST** | NPST | UPI infrastructure, banking solutions |
-| **Innoviti Technologies** | Listed | POS, credit/debit card processing |
-
-**Tier B4: Payments Banking & Cards**
-| Company | Symbol | Focus |
-|---------|--------|-------|
-| **Fino Payments Bank** | FINOPB | Payments bank, 143M+ customers |
-| **SBI Cards** | SBICARD | Pure-play credit card company |
-
-**Tier B5: ATM & Cash (Peripheral)**
-| Company | Symbol | Focus |
-|---------|--------|-------|
-| **AGS Transact** | AGSTRA | ATM/cash management ⚠️ Under CIRP |
-
-#### 🚫 EXCLUDED
-| Company | Reason |
-|---------|--------|
-| **Nykaa, Zomato, RateGain** | Not core fintech/payments |
-| **RBL, Federal, IndusInd, Yes Bank** | Full-service, not digital leaders |
-
-### 3. Data Sources
-
-**Stock Data:**
-- Moneycontrol (moneycontrol.com) — quotes, charts
-- NSE India (nseindia.com) — official data
-- Economic Times Markets (economictimes.indiatimes.com/markets)
-
-**News & Events:**
-- Company press releases
-- RBI/NPCI announcements
-- SEBI filings
-- Economic Times, Business Standard
-
-### 4. Output Format (Hugo)
+### Step 4: Report Generation
+If script fails or data incomplete, generate manually:
 
 ```yaml
 ---
-title: "Stock Watch — March 11, 2026"
+title: "CashlessWatch Stock Market Summary — March 11, 2026"
 date: 2026-03-11T08:15:00+05:30
 draft: false
-tags: ["Stocks", "Markets", "Fintech", "India"]
+tags: ["Stocks", "Fintech", "Markets", "India"]
 categories: ["Stock Watch"]
-description: "Pre-market summary: Indices, Banks, and Pure-Play Fintech stocks"
+description: "Pre-market summary of Indian indices, banking stocks, and pure-play fintech/paytech companies"
 ---
 
-# Stock Watch — March 11, 2026
-
-*Market Day Summary | Not investment advice*
-
----
+# CashlessWatch Stock Market Summary — [Date]
 
 ## 📊 INDICES
+| Index | Level | Change | % Change |
+|-------|-------|--------|----------|
+| [Data] | [Data] | [Data] | [Data] |
 
-| Index | Prev Close | Change | % Change |
-|-------|-----------|--------|----------|
-| Nifty 50 | [Level] | [Change] | [%] |
-| Nifty Bank | [Level] | [Change] | [%] |
-| FinNifty | [Level] | [Change] | [%] |
-| Nifty IT | [Level] | [Change] | [%] |
+## 🏦 BANKS — Digital Payments Leaders
+| Company | Symbol | Price | Change | % Change |
+|---------|--------|-------|--------|----------|
+| [Data] | [Data] | [Data] | [Data] | [Data] |
 
-*SGX Nifty (if available): [Level] | [Change]*
-
----
-
-## 🏦 BANKS — Digital Payments Focus
-
-| Bank | Symbol | Prev Close | Change % | Key Levels | Expectation |
-|------|--------|-----------|----------|------------|-------------|
-| HDFC Bank | HDFCBANK | ₹[X] | [X]% | R[X] S[X] | [Bullish/Neutral/Bearish] |
-| ICICI Bank | ICICIBANK | ₹[X] | [X]% | R[X] S[X] | [Bullish/Neutral/Bearish] |
-| SBI | SBIN | ₹[X] | [X]% | R[X] S[X] | [Bullish/Neutral/Bearish] |
-| Axis Bank | AXISBANK | ₹[X] | [X]% | R[X] S[X] | [Bullish/Neutral/Bearish] |
-| Kotak Bank | KOTAKBANK | ₹[X] | [X]% | R[X] S[X] | [Bullish/Neutral/Bearish] |
-
----
-
-## 💳 FINTECH — Pure Play
-
-### B1: Payments & Wallets
-
-| Company | Symbol | Prev Close | Change % | Key Levels | Expectation |
-|---------|--------|-----------|----------|------------|-------------|
-| Paytm | PAYTM | ₹[X] | [X]% | R[X] S[X] | [Expectation] |
-| MobiKwik | MOBIKWIK | ₹[X] | [X]% | R[X] S[X] | [Expectation] |
-
-### B2-B4: Infrastructure & Cards
-
-| Company | Symbol | Prev Close | Change % | Notes |
-|---------|--------|-----------|----------|-------|
-| PB Fintech | PBFINTECH | ₹[X] | [X]% | Insurance aggregation |
-| Infibeam | INFIBEAM | ₹[X] | [X]% | Payment gateway |
-| Pine Labs | PINELABS | ₹[X] | [X]% | Merchant payments |
-| NPST | NPST | ₹[X] | [X]% | UPI infrastructure |
-| Fino Bank | FINOPB | ₹[X] | [X]% | Payments bank |
-| SBI Cards | SBICARD | ₹[X] | [X]% | Credit cards |
-| AGS Transact | AGSTRA | ₹[X] | [X]% | ⚠️ Under CIRP |
-
----
+## 💳 PURE-PLAY FINTECH/PAYTECH
+[Table data]
 
 ## 📰 Sector News
+- [Bullet points of RBI/NPCI/payment news]
+- [Market-moving fintech announcements]
+- [Company earnings/AGM]
+- [Sector-specific developments]
 
-- [RBI/NPCI/SEBI news affecting payments/fintech]
-- [Company-specific news]
-- [Earnings/AGM/IPO updates]
+## ⚠️ DISCLAIMER
+**Not investment advice. For informational purposes only.**
+Include timestamp: "Summary as of [Time] IST, [Date]"
+```
 
 ---
 
-*Sources: Moneycontrol, NSE India, Economic Times Markets*
-*Disclaimer: This is AI-generated market information for educational purposes only. Not investment advice.*
+## Output Format
+
+### Telegram Alert (Compact)
+```
+📊 INDICES
+━━━━━━━━━━━━━━━━━━━━
+Nifty 50:   [Level]  [Change]
+Nifty Bank: [Level]  [Change]
+FinNifty:   [Level]  [Change]
+
+🏦 BANKS — Digital Payments Focus
+━━━━━━━━━━━━━━━━━━━━
+[Table with prev close, % change]
+
+💳 FINTECH — Pure Play
+━━━━━━━━━━━━━━━━━━━━
+[Table with prev close, % change]
+
+📰 Sector News
+• [Bullet points]
+
+⚠️ AGSTRA under CIRP
+📌 Not investment advice
 ```
 
-### 5. Publishing Commands
+---
+
+## Publishing Commands
 
 ```bash
-cd /home/.z/workspaces/cashless-watch
-git checkout main
-git pull origin main
+cd /home/.z/workspaces/con_PXCpywVCLwND9RsD/cashless-watch
 
-# Generate filename
-cat > content/posts/$(date +%Y-%m-%d)-stock-watch.md << 'EOF'
-[generated Hugo markdown]
-EOF
+# Full pipeline
+./scripts/stock-watch.sh
 
-git add content/posts/$(date +%Y-%m-%d)-stock-watch.md
-git commit -m "Add Stock Watch for $(date +%B %d, %Y)"
-git push origin main
+# Individual steps
+./scripts/stock-watch.sh fetch   # Get data
+./scripts/stock-watch.sh hugo    # Generate post
+./scripts/stock-watch.sh telegram # Send alert
+./scripts/stock-watch.sh json    # View JSON
 ```
-
-### 6. Telegram Alert Format
-
-```
-📊 CashlessWatch Stock Market Summary
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-📆 $(date +"%A, %B %d, %Y")
-
-📈 INDICES
-• Nifty 50: [Level] ([Change]%)
-• Nifty Bank: [Level] ([Change]%)
-• FinNifty: [Level] ([Change]%)
-
-🏦 TOP BANKS
-[Compact 2-column table]
-
-💳 FINTECH PURE-PLAY
-[Top 3 movers table]
-
-📰 Key News:
-• [Bullet 1]
-• [Bullet 2]
-
-⚠️ Not investment advice
-🔗 Full watchlist: [zo.space link]
-```
-
-### 7. Quality Checks
-- [ ] All 5 indices have data
-- [ ] All 5 banks have data
-- [ ] All Tier B fintech have data
-- [ ] Resistance/Support levels noted
-- [ ] Overnight news summarized
-- [ ] AGSTRA CIRP status disclosed
-- [ ] Hugo frontmatter complete
-- [ ] Telegram alert sent
-- [ ] GitHub push successful
 
 ---
 
-## How to Improve This Agent
+## Quality Checks
 
-### Suggest Changes
-1. **Open an Issue**: https://github.com/CCAgentOrg/cashless-watch/issues
-2. **Submit a PR**: Edit `content/agents/stock-market-summary-agent.md`
+- [ ] All indices fetched (Nifty 50, Bank, FinNifty, IT)
+- [ ] All 5 major banks have data
+- [ ] At least 3 fintech stocks have data
+- [ ] Prices cross-verified with NSE/Moneycontrol
+- [ ] % change calculations correct
+- [ ] Telegram alert sent successfully
+- [ ] Hugo post committed to repository
+- [ ] No overlapping data sources (use oracle priority)
 
 ---
 
-## Agent Version History
+## Data Fallback Strategy
+
+If primary source fails:
+
+1. **NSE India** → Use Yahoo Finance
+2. **Yahoo Finance** → Use Moneycontrol HTML scraping
+3. **Both fail** → Mark as "Data delayed" in output
+
+---
+
+## Version History
 
 | Date | Change | Commit |
 |------|--------|--------|
-| 2026-03-11 | Initial agent creation with indices + banks + fintech tiers | [TBD] |
+| 2026-03-11 | Agent creation with 3-tier structure | [TBD] |
+| 2026-03-11 | Added helper scripts (fetch, generate, send) | [TBD] |
 
 ---
 

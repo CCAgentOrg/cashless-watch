@@ -17,7 +17,7 @@ description: "Pre-market summary: Indices, Banks, and Pure-Play Fintech"
 | Nifty 50 | 23,995.70 | -97.00 | -0.40% |
 | Nifty Bank | 55,895.80 | -861.00 | -1.54% |
 | FinNifty | 26,112.45 | -60.08 | -0.23% |
-| Nifty IT | ~42,500 | TBD | TBD |
+| Nifty IT | 28,952.90 | -206.25 | -0.71% |
 
 📉 **Market Sentiment**: Weak — Nifty slipped below 24,000 psychological level amid Iran tensions & crude oil surge. Bank Nifty led declines.
 

@@ -1,13 +1,13 @@
 ---
-title: "Fintech Deep Dive — $(date +%A) | $(date +%B %d, %Y)"
-date: $(date +%Y-%m-%d)T08:30:00+05:30
+title: "Fintech Deep Dive — Thursday | April 23, 2026"
+date: 2026-04-23T08:30:00+05:30
 draft: false
-tags: ["Fintech", "Deep Dive", "Theme: $(date +%A)"]
+tags: ["Fintech", "Deep Dive", "Theme: Thursday"]
 categories: ["Deep Dive"]
-description: "Weekly analysis of $(date +%A) theme in Indian fintech"
+description: "Weekly analysis of Thursday theme in Indian fintech"
 ---
 
-# Fintech Deep Dive — $(date +%A) | $(date +%B %d, %Y)
+# Fintech Deep Dive — Thursday | April 23, 2026
 
 **Focus:** International & Cross-Border Fintech — Global expansion, UPI abroad, cross-border payments infrastructure, and international funding flows shaping India's fintech ecosystem.
 

@@ -1,3 +1,14 @@
+---
+title: "Fintech Deep Dive — Saturday | September 26, 2026"
+date: 2026-09-26T08:30:00+05:30
+draft: false
+tags: ["Fintech", "Deep Dive", "Theme: Saturday"]
+categories: ["Deep Dive"]
+description: "Weekly analysis of Saturday theme in Indian fintech"
+---
+
+# Fintech Deep Dive — Saturday | September 26, 2026
+
 Consumer rights week, and this cycle the story is design. The week's biggest consumer-protection moves target not fraudsters but interfaces and fee plumbing: IRDAI proposed the most sweeping reset of insurance distribution in over a decade — dark patterns out, mis-selling clawbacks in, and a public "Know Your Distributor" registry — while the Centre notified e-commerce rules forcing platforms to disclose their real price history and audit themselves for dark patterns annually. RBI proposed a 60-day debit-hold regime for suspected mule accounts and, crucially, wrote a complaints clause into it. The finance ministry spent the week converting last week's vague MDR reassurance into a named pledge with a mechanism, and enforcement caught up with the deepfake era of the digital-arrest scam — where the firewall that worked was a bank branch manager. Here is the week in five stories, with the consumer's stake in each.
 
 ## 1. IRDAI's Distribution Reset: Dark Patterns, Clawbacks and a "Know Your Distributor" Registry

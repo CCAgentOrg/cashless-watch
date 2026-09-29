@@ -1,0 +1,190 @@
+{{ $css := resources.Get "css/broadsheet.css" | minify | fingerprint }}
+{{ $briefs := where .Site.RegularPages "Params.categories" "intersect" (slice "Daily Brief") }}
+{{ $stocks := where .Site.RegularPages "Params.categories" "intersect" (slice "Stock Watch") }}
+{{ $dives  := where .Site.RegularPages "Params.categories" "intersect" (slice "Deep Dive") }}
+{{ $satire := where .Site.RegularPages "Params.series" "intersect" (slice "fintech-satire") }}
+{{ $ticker := first 8 .Site.RegularPages }}
+{{ $dispatches := len .Site.RegularPages }}
+{{ $explainersSec := .Site.GetPage "/explainers" }}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Title }} — AI-powered fintech intelligence for India</title>
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#f4efe4">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ with .OutputFormats.Get "rss" }}
+    <link rel="alternate" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}">
+  {{ end }}
+  {{ with .OutputFormats.Get "json" }}
+    <link rel="alternate" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}">
+  {{ end }}
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{ .Site.Params.description }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:type" content="website">
+  {{ with index .Site.Params.images 0 }}<meta property="og:image" content="{{ . }}">{{ end }}
+  <meta name="twitter:card" content="summary_large_image">
+  {{ with index .Site.Params.images 0 }}<meta name="twitter:image" content="{{ . }}">{{ end }}
+  <link rel="icon" href="{{ "favicon.ico" | absURL }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,900&family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <style>{{ $css.Content | safeCSS }}</style>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"{{ .Site.Title }}","url":"{{ .Permalink }}","description":"{{ .Site.Params.description }}"{{ with index .Site.Params.images 0 }},"logo":"{{ . }}"{{ end }},"sameAs":["https://github.com/CCAgentOrg/cashless-watch","https://twitter.com/CashlessConsumer"]}
+  </script>
+</head>
+<body>
+
+<header class="topbar mono">
+  <div class="wrap">
+    <span class="live"><span class="dot"></span>On air</span>
+    <span class="meta">{{ now.Format "Monday · 2 January 2006" }} · Mumbai · IST</span>
+    <span class="meta">Est. 2019 · Consumer collective</span>
+  </div>
+</header>
+
+<section class="masthead">
+  <h1><a href="{{ .Site.BaseURL }}">Cashless<span class="rupee">₹</span>Watch</a></h1>
+  <p class="tagline mono">AI-powered fintech intelligence for India — brief @ 08:00 · deep dive @ 08:30 · every day</p>
+</section>
+
+<nav class="sections" aria-label="Sections">
+  <div class="wrap">
+    <a href="{{ .Site.BaseURL }}" class="active">Today</a>
+    <a href="{{ "categories/daily-brief" | absURL }}">Briefs</a>
+    <a href="{{ "categories/deep-dive" | absURL }}">Deep dives</a>
+    <a href="{{ "categories/stock-watch" | absURL }}">Stock watch</a>
+    <a href="{{ "tags/satire" | absURL }}">Satire</a>
+    <a href="{{ "explainers" | absURL }}">101 Explainers</a>
+    <a href="{{ "agents" | absURL }}">Agents</a>
+    <a href="{{ "stakeholders" | absURL }}">Stakeholders</a>
+    <a href="{{ "about" | absURL }}">About</a>
+  </div>
+</nav>
+
+<div class="ticker" aria-label="Latest headlines">
+  <div class="ticker-track">
+    {{ range $ticker }}
+      <span><span class="lab">{{ .Date.Format "Jan 2" }}</span><a href="{{ .RelPermalink }}">{{ .Title }}</a></span>
+    {{ end }}
+    {{ range $ticker }}
+      <span aria-hidden="true"><span class="lab">{{ .Date.Format "Jan 2" }}</span><a href="{{ .RelPermalink }}">{{ .Title }}</a></span>
+    {{ end }}
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="grid-main">
+    <article class="lead">
+      {{ with index $briefs 0 }}
+        <span class="kicker mono">Today's brief · filed {{ .Date.Format "15:04" }} IST</span>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        {{ with .Description }}<p class="dek">{{ . }}</p>{{ end }}
+        <div class="byline mono">
+          <span>AI-filed · Brief desk</span>
+          <span>{{ .ReadingTime }} min read</span>
+          <span>{{ .Date.Format "Mon, 2 Jan 2006" }}</span>
+        </div>
+        <a class="btn" href="{{ .RelPermalink }}">Read the full brief →</a>
+      {{ end }}
+    </article>
+
+    <aside class="rail">
+      {{ with index $stocks 0 }}
+        <div class="rail-card">
+          <span class="kicker mono">Stock watch · <b>{{ .Date.Format "Mon · 15:04" }} IST</b></span>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{ with .Description }}<p>{{ . }}</p>{{ end }}
+        </div>
+      {{ end }}
+      {{ with index $dives 0 }}
+        <div class="rail-card">
+          <span class="kicker mono">Latest deep dive · <b>{{ .Date.Format "Mon" }}</b></span>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{ with .Description }}<p>{{ . }}</p>{{ end }}
+        </div>
+      {{ end }}
+      {{ with index $satire 0 }}
+        <div class="rail-card">
+          <span class="kicker mono">From the archive · <b>{{ $dispatches }} issues</b></span>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{ with .Description }}<p>{{ . }}</p>{{ end }}
+        </div>
+      {{ end }}
+    </aside>
+  </div>
+
+  <div class="grid-cols">
+    <section class="col">
+      <h2 class="col-head mono">Deep dives <span>Weekly themes</span> <a href="{{ "categories/deep-dive" | absURL }}">All →</a></h2>
+      <ul>
+        {{ range first 4 $dives }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a><span class="date">{{ .Date.Format "Jan 2" }} · {{ .ReadingTime }} min</span></li>
+        {{ end }}
+      </ul>
+    </section>
+
+    <section class="col">
+      <h2 class="col-head mono">Satire <span>Saturdays</span> <a href="{{ "tags/satire" | absURL }}">All →</a></h2>
+      {{ with index $satire 0 }}
+        <div class="satire-feature">
+          <span class="kicker mono">Dispatch · Neo-Mumbai</span>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{ with .Description }}<p>{{ . }}</p>{{ end }}
+          <span class="ghost">2047</span>
+        </div>
+      {{ end }}
+      <ul>
+        {{ range first 2 (after 1 $satire) }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a><span class="date">{{ .Date.Format "Jan 2" }}</span></li>
+        {{ end }}
+      </ul>
+    </section>
+
+    <section class="col">
+      <h2 class="col-head mono">101 Explainers <span>On demand</span> <a href="{{ $explainersSec.RelPermalink }}">All →</a></h2>
+      <ul>
+        {{ range first 6 $explainersSec.Pages }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a><span class="date">101 · Consumer rights checked</span></li>
+        {{ end }}
+      </ul>
+    </section>
+  </div>
+</main>
+
+<footer class="desk">
+  <div class="wrap">
+    <div class="desk-top">
+      <div>
+        <h2>Filed by machines. Edited for humans.</h2>
+        <p class="sub">{{ $dispatches }} dispatches and counting — every morning, no exceptions.</p>
+      </div>
+      <ul class="schedule">
+        <li><a href="{{ "agents/daily-fintech-brief-agent" | absURL }}">Daily Fintech Brief</a><span class="when">08:00 IST · daily <span class="ok">· filed</span></span></li>
+        <li><a href="{{ "agents/stock-market-summary-agent" | absURL }}">Stock Watch</a><span class="when">08:15 IST · mon–fri <span class="ok">· filed</span></span></li>
+        <li><a href="{{ "agents/themed-fintech-deep-dive-agent" | absURL }}">Themed Deep Dive</a><span class="when">08:30 IST · daily <span class="ok">· filed</span></span></li>
+        <li><a href="{{ "agents/weekly-deep-research-agent" | absURL }}">Weekly Deep Research</a><span class="when">Sun · 09:00 IST</span></li>
+        <li><a href="{{ "agents/weekly-satire-agent" | absURL }}">Weekly Satire</a><span class="when">Sat · 10:00 IST</span></li>
+        <li><a href="{{ "agents/explainer-agent" | absURL }}">101 Explainer</a><span class="when">On demand</span></li>
+      </ul>
+    </div>
+    <div class="desk-bottom">
+      <nav>
+        <a href="{{ "index.xml" | absURL }}">RSS</a>
+        <a href="https://twitter.com/CashlessConsumer">X / Twitter</a>
+        <a href="https://github.com/CCAgentOrg/cashless-watch">GitHub</a>
+        <a href="{{ "about" | absURL }}">About</a>
+      </nav>
+      <span>© {{ now.Format "2006" }} Cashless Consumer · Set in Fraunces &amp; Newsreader · Published every morning, no exceptions</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

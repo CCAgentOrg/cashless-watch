@@ -1,30 +1,12 @@
 ---
-
-This week's policy and regulation deep dive covers five major developments: Parliament's amendment opening the door to selective UPI MDR, the RBI Governor's comprehensive AI governance roadmap for banks, a landmark proposal to harmonise lending-rate transparency across all regulated entities, BRICS payment system interoperability talks, and a SEBI enforcement action against Paytm KMPs. Each story carries implications for how India's fintech ecosystem will be governed, taxed, and expanded in the coming years.
 title: "Fintech Deep Dive — Friday | August 14, 2026"
-
-This week's policy and regulation deep dive covers five major developments: Parliament's amendment opening the door to selective UPI MDR, the RBI Governor's comprehensive AI governance roadmap for banks, a landmark proposal to harmonise lending-rate transparency across all regulated entities, BRICS payment system interoperability talks, and a SEBI enforcement action against Paytm KMPs. Each story carries implications for how India's fintech ecosystem will be governed, taxed, and expanded in the coming years.
 date: 2026-08-14T08:30:00+05:30
-
-This week's policy and regulation deep dive covers five major developments: Parliament's amendment opening the door to selective UPI MDR, the RBI Governor's comprehensive AI governance roadmap for banks, a landmark proposal to harmonise lending-rate transparency across all regulated entities, BRICS payment system interoperability talks, and a SEBI enforcement action against Paytm KMPs. Each story carries implications for how India's fintech ecosystem will be governed, taxed, and expanded in the coming years.
 draft: false
-
-This week's policy and regulation deep dive covers five major developments: Parliament's amendment opening the door to selective UPI MDR, the RBI Governor's comprehensive AI governance roadmap for banks, a landmark proposal to harmonise lending-rate transparency across all regulated entities, BRICS payment system interoperability talks, and a SEBI enforcement action against Paytm KMPs. Each story carries implications for how India's fintech ecosystem will be governed, taxed, and expanded in the coming years.
 tags: ["Fintech", "Deep Dive", "Theme: Friday"]
-
-This week's policy and regulation deep dive covers five major developments: Parliament's amendment opening the door to selective UPI MDR, the RBI Governor's comprehensive AI governance roadmap for banks, a landmark proposal to harmonise lending-rate transparency across all regulated entities, BRICS payment system interoperability talks, and a SEBI enforcement action against Paytm KMPs. Each story carries implications for how India's fintech ecosystem will be governed, taxed, and expanded in the coming years.
 categories: ["Deep Dive"]
-
-This week's policy and regulation deep dive covers five major developments: Parliament's amendment opening the door to selective UPI MDR, the RBI Governor's comprehensive AI governance roadmap for banks, a landmark proposal to harmonise lending-rate transparency across all regulated entities, BRICS payment system interoperability talks, and a SEBI enforcement action against Paytm KMPs. Each story carries implications for how India's fintech ecosystem will be governed, taxed, and expanded in the coming years.
-description: "Weekly analysis of Friday theme in Indian fintech"
-
-This week's policy and regulation deep dive covers five major developments: Parliament's amendment opening the door to selective UPI MDR, the RBI Governor's comprehensive AI governance roadmap for banks, a landmark proposal to harmonise lending-rate transparency across all regulated entities, BRICS payment system interoperability talks, and a SEBI enforcement action against Paytm KMPs. Each story carries implications for how India's fintech ecosystem will be governed, taxed, and expanded in the coming years.
+description: "This week's policy and regulation deep dive covers five major developments: Parliament's amendment opening the door to selective UPI MDR, the RBI Governor's comprehensive AI governance roadmap for banks, a landmark proposal to harmonise lending-rate transparency across all regulated entities, BRICS payment system interoperability talks, and a SEBI enforcement action against Paytm KMPs. Each story carries implications for how India's fintech ecosystem will be governed, taxed, and expanded in the coming years."
 ---
 
-This week's policy and regulation deep dive covers five major developments: Parliament's amendment opening the door to selective UPI MDR, the RBI Governor's comprehensive AI governance roadmap for banks, a landmark proposal to harmonise lending-rate transparency across all regulated entities, BRICS payment system interoperability talks, and a SEBI enforcement action against Paytm KMPs. Each story carries implications for how India's fintech ecosystem will be governed, taxed, and expanded in the coming years.
-
-
-This week's policy and regulation deep dive covers five major developments: Parliament's amendment opening the door to selective UPI MDR, the RBI Governor's comprehensive AI governance roadmap for banks, a landmark proposal to harmonise lending-rate transparency across all regulated entities, BRICS payment system interoperability talks, and a SEBI enforcement action against Paytm KMPs. Each story carries implications for how India's fintech ecosystem will be governed, taxed, and expanded in the coming years.
 # Fintech Deep Dive — Friday | August 14, 2026
 
 This week's policy and regulation deep dive covers five major developments: Parliament's amendment opening the door to selective UPI MDR, the RBI Governor's comprehensive AI governance roadmap for banks, a landmark proposal to harmonise lending-rate transparency across all regulated entities, BRICS payment system interoperability talks, and a SEBI enforcement action against Paytm KMPs. Each story carries implications for how India's fintech ecosystem will be governed, taxed, and expanded in the coming years.
@@ -105,4 +87,3 @@ The notice concerns whether certain information was properly identified as UPSI 
 - [x] Funding amounts and valuations where applicable (N/A — policy theme)
 - [x] All sources linked
 - [x] GitHub push pending
-

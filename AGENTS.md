@@ -83,3 +83,7 @@ All agent instructions are stored in Git and synced to live agents.
 ## Homepage Override
 
 Broadsheet front page (2026-09-29): `layouts/index.html` + `assets/css/broadsheet.css` replace the PaperMod profile-mode homepage only. Inner pages stay PaperMod. Dateline/ticker computed at build time. Revert = delete the two files. Mocks in `redesign-mocks/` (A broadsheet · B terminal · C poster).
+
+## Toolchain (upgraded 2026-09-29)
+
+Hugo 0.167.0 (deploy.yml pin + local deb; `locale = 'en-US'` in hugo.toml, languageCode removed). PaperMod submodule at d3768854 (2026-08-02 master; v8.0 tag is stale). Deprecation warnings from PaperMod .Language.* calls are upstream, harmless. Content note: front matter must stay strict YAML (0.167.0 rejects duplicate keys — the 0.146.5-era agents interleaved description text into front matter once; watch for it in new agent-authored posts).

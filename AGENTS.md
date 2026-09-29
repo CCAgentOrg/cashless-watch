@@ -79,3 +79,7 @@ To improve any agent:
 ## Version Control
 
 All agent instructions are stored in Git and synced to live agents.
+
+## Homepage Override
+
+Broadsheet front page (2026-09-29): `layouts/index.html` + `assets/css/broadsheet.css` replace the PaperMod profile-mode homepage only. Inner pages stay PaperMod. Dateline/ticker computed at build time. Revert = delete the two files. Mocks in `redesign-mocks/` (A broadsheet · B terminal · C poster).

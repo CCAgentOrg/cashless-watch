@@ -1,5 +1,5 @@
 baseURL = 'https://watch.cashlessconsumer.in'
-languageCode = 'en-us'
+locale = 'en-US'
 title = 'Cashless Watch'
 theme = 'PaperMod'
 

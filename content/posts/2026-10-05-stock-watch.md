@@ -18,8 +18,8 @@ description: "Pre-market summary: Indian indices, digital-payments banks, and li
 | Index | Sep 30 close | Oct 1 close | Oct 1 change | News context / Monday watch |
 |---|---:|---:|---:|---|
 | **Nifty 50** | 22,620.45 | 22,421.95 | ↘️ **−198.50 (−0.88%)** | Eighth straight weekly loss; pressure from crude, yields and foreign selling. |
-| Nifty Bank | 54,633.05 | 54,450.75 | −182.30 (−0.33%) | Weak close, though HDFC Bank and Kotak ended higher. |
-| FinNifty | 24,649.50 | 24,556.10 | −93.40 (−0.38%) | Financial stocks broadly weak; 14 constituents fell, six rose. |
+| Nifty Bank | 54,633.05 | 54,450.75 | ↘️ −182.30 (−0.33%) | Weak close, though HDFC Bank and Kotak ended higher. |
+| FinNifty | 24,649.50 | 24,556.10 | ↘️ −93.40 (−0.38%) | Financial stocks broadly weak; 14 constituents fell, six rose. |
 | **Nifty IT** | 27,704.80 | 28,304.70 | ↗️ **+599.90 (+2.17%)** | Clear relative strength against the broader sell-off. |
 
 *Index closes and moves are cross-checked against Moneycontrol's October 1 close coverage.[^2]*

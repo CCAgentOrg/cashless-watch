@@ -11,6 +11,8 @@ description: "Weekly analysis of Friday theme in Indian fintech"
 
 **Policy & regulation | October 9–16, 2026**
 
+## Executive summary
+
 India’s proposed UPI merchant discount rate (MDR) did not arrive quietly. In the week it was due to begin, the National Payments Corporation of India (NPCI) pushed its start until after Diwali; the pension regulator asked that a particular kind of savings transfer be treated as person-to-person rather than merchant activity; and legal commentators questioned how a ban on passing the charge to customers would work in practice. Together, these are not three unrelated objections. They expose the harder design problem: who pays to keep a widely used payment rail reliable, and how do users know that a new charge is correctly classified and fairly enforced?
 
 A clarification on scope: the MDR schedule was not an RBI circular announced this week. It is a payment-system pricing framework communicated through NPCI and the UPI and Services Steering Committee, under the Payment and Settlement Systems Act framework. On October 13, NPCI deferred the planned October 15 start. As of October 16, there is no new implementation date. The proposed schedule below is therefore policy context—not a fee that consumers or merchants should assume is already live.
@@ -66,3 +68,12 @@ A sound settlement would protect P2P transfers and genuinely small merchants, cl
 ## What to watch next
 
 As of October 16, the October 15 start is postponed, not rescinded. The next meaningful signals are a dated NPCI notice, a published answer to PFRDA on D-Remit, and clear instructions on preventing and refunding merchant surcharges. The central regulatory test is whether India can fund UPI’s operational resilience while keeping rules legible to the people who use it. “Free” and “sustainable” are not opposites; opaque classification and unreviewable pricing are the avoidable risks.
+
+## Sources
+
+- [Mint: NPCI defers the MDR rollout until after Diwali](https://www.livemint.com/money/upi-transactions-above-2-000-0-4-mdr-deferred-until-after-diwali-says-npci-11791878899700.html)
+- [TechCrunch: retailer pushback and the postponed fee](https://techcrunch.com/2026/10/13/india-delays-digital-payments-fee-rollout-amid-retailer-pushback/)
+- [Mint: PFRDA seeks an NPS D-Remit exemption](https://www.livemint.com/economy/pfrda-seeks-upi-mdr-exemption-for-nps-contributions-11791863636686.html)
+- [Mint: consumer surcharge rules and complaint gaps](https://www.livemint.com/industry/upi-mdr-digital-payments-india-merchants-fee-customer-payments/amp-11791831657458.html)
+- [Mint: economists on UPI’s cost and pricing model](https://www.livemint.com/opinion/online-views/upi-mdr-charges-new-rules-merchant-discount-rate-11791823504548.html)
+- [NPCI: UPI ecosystem statistics](https://www.npci.org.in/product/ecosystem-statistics/upi)

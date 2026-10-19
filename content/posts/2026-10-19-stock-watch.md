@@ -24,7 +24,7 @@ description: "Pre-market summary: Indian indices, digital-payments banks, and li
 
 Friday's advance was led by IT; Bank Nifty and FinNifty were nearly flat. [^1]
 
-**Pre-market read:** Mixed, leaning cautious. Moneycontrol's 07:33 report had GIFT Nifty up about 85 points at 23,111.50, but an 08:02 market view expected a flat open near 23,150; its 08:13 live update cited declines in US and Asian markets. No later timestamped GIFT print was verified by 08:20. SGX Nifty was not checked as a separate live quote; GIFT Nifty is the opening reference used here. [^2] [^3]
+**Pre-market read:** Mixed, leaning cautious. Moneycontrol's 07:33 report had GIFT Nifty up about 85 points at 23,111.50, but an 08:02 market view expected a flat open near 23,150; its 08:13 live update cited declines in US and Asian markets. No later timestamped GIFT print was verified by 08:20. No separate SGX Nifty quote was verified; GIFT Nifty is the opening proxy used here. [^2] [^3]
 
 **Reference levels:** Moneycontrol's pre-open technical view put Nifty resistance at 23,200–23,250 and support at 22,900–23,000. For Bank Nifty, 56,100 is the cited hurdle; Friday's 55,526–55,990 range is the nearby traded reference. These are analyst/range references, not assured floors or targets. [^3]
 
@@ -48,7 +48,7 @@ ICICI, HDFC and Axis have reported Q2 results. Brokerages cited by Moneycontrol 
 | B1 | One MobiKwik Systems (MOBIKWIK) | ₹228.60 | ↘️ −₹2.88 (−1.24%) | ₹227.35–₹234.27 | Weak close within the Friday range; watch high-beta sentiment. |
 | B2 | PB Fintech / Policybazaar (POLICYBZR; legacy PBFINTECH) | ₹1,070.00 | ↘️ −₹9.40 (−0.87%) | ₹1,058.10–₹1,092.00 | Below Thursday's close; no new company event found in the morning scan. |
 | B3 | AvenuesAI (CCAVENUE; formerly Infibeam Avenues) | — | No traded bar | — | No Friday trade in the feed after the share-consolidation suspension; excluded from movers. |
-| B3 | Pine Labs (PINELABS) | ₹165.04 | ↘️ −₹3.08 (−1.83%) | ₹164.56–₹170.07 | Among the weakest active names Friday; watch the ₹164.56 prior-session low. |
+| B3 | Pine Labs (PINELABS) | ₹165.04 | **↘️ −₹3.08 (−1.83%)** | ₹164.56–₹170.07 | Among the weakest active names Friday; watch the ₹164.56 prior-session low. |
 | B3 | Network People Services Technologies (NPST) | ₹1,843.60 | ↗️ +₹19.70 (+1.08%) | ₹1,802.00–₹1,874.80 | **Top gainer** in this group Friday; watch follow-through near the ₹1,874.80 high. |
 | B4 | Fino Payments Bank (FINOPB) | ₹134.10 | ↗️ +₹1.35 (+1.02%) | ₹130.25–₹135.51 | **Second-strongest gainer** Friday; check whether it holds the prior close. |
 | B4 | SBI Cards (SBICARD) | ₹564.20 | ↘️ −₹9.00 (−1.57%) | ₹561.25–₹575.85 | Finished near the lower end of Friday's range. |
@@ -67,7 +67,7 @@ The two largest percentage decliners among the active fintech/payments shares we
 
 **Disclaimer:** AI-generated, not investment advice. For informational purposes only.
 
-[^1]: NSE India, [All Indices data](https://www.nseindia.com/api/allIndices); cross-check: Moneycontrol, [October 16 market close](https://www.moneycontrol.com/news/business/markets/first-tick-top-global-cues-to-watch-in-today-s-trade-20-14053850.html/amp).
+[^1]: NSE India, [All Indices data](https://www.nseindia.com/api/allIndices); cross-check: Moneycontrol, [October 16 market close](https://www.moneycontrol.com/news/business/markets/stock-market-live-updates-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-updates-16-10-2026-alpha-liveblog-14053420.html).
 [^2]: Moneycontrol, [First Tick: top global cues to watch on October 19](https://www.moneycontrol.com/news/business/markets/first-tick-top-global-cues-to-watch-in-today-s-trade-20-14053850.html/amp).
 [^3]: Moneycontrol, [October 19 live market updates](https://www.moneycontrol.com/news/business/markets/stock-market-live-updates-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-updates-19-10-2026-alpha-liveblog-14054962.html) and [Trading Plan: Nifty 50 and Bank Nifty levels](https://www.moneycontrol.com/news/business/markets/trading-plan-can-nifty-50-march-towards-23-300-bank-nifty-surpass-the-56-100-hurdle-14055009.html).
 [^4]: Moneycontrol, [Brokerages retain Buy ratings on ICICI, HDFC and Axis after Q2](https://www.moneycontrol.com/news/business/markets/brokerages-retain-buy-on-icici-hdfc-axis-bank-after-q2-margin-recovery-key-14054895.html).

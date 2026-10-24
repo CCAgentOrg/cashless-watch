@@ -37,7 +37,7 @@ The label says that SBI had identified 3,897 customer records containing persona
 
 “Which other question?”
 
-That is why we keep the sentence in a glass case. A safe balance is good news. It is not a privacy report, a complete account of what happened, or a promise that personal details cannot help someone make a more convincing approach. The records’ authenticity and scope remained under investigation; no claim of subsequent misuse is established here. In the old days, institutions sometimes answered the question they could measure, then hoped everyone would stop asking.
+We keep that sentence in glass: a safe balance is good news, not a privacy report or a promise that exposed details cannot make a scam more convincing. The records’ authenticity and full scope were under investigation; no subsequent misuse is established here. Institutions answered the question they could measure and hoped we’d stop asking.
 
 Our second exhibit is a government-benefit advertisement with a familiar face. In 2026, the I4C warned that fake social-media ads were using names, images and deepfake videos of public figures to promise assistance, cashback or prizes. Some asked for registration or processing payments; others persuaded people to approve UPI collect requests or enter a PIN. The PIN did exactly what it was designed to do: authorize a payment.[^2]
 
@@ -49,7 +49,7 @@ Our second exhibit is a government-benefit advertisement with a familiar face. I
 
 “Could you tell?”
 
-Our ancestors were told to verify the scheme, the official, the video, the website, the phone number and the payment request—sometimes all before breakfast. This advice matters. But a safety checklist is not a substitute for making fraudulent ads harder to circulate, clearly explaining a payment request, and helping people respond quickly when a scam succeeds. The fake official wore a borrowed face; the person at the phone was expected to bring a forensic lab.
+We told people to verify the scheme, official, video, website, phone number and UPI request—before breakfast, apparently. Useful advice, but not a substitute for removing fraudulent ads or explaining what a payment prompt does. The fake official wore one borrowed face; the citizen was expected to bring a forensic lab.
 
 The third exhibit is a queue ticket marked **PROTECTION: PLEASE WAIT**. A status report submitted to the Supreme Court said more than 21,900 digital-arrest complaints involving over ₹647 crore were registered from January through August 2026. Those figures describe complaints and the amount involved—not audited final losses or money unrecovered. The report said a draft standard operating procedure for suspected mule accounts needed technical integration, with December a tentative target. It also said the RBI was considering delayed transactions or lagged credit as possible safeguards; these were not yet protections consumers could simply switch on.[^3]
 
@@ -61,7 +61,7 @@ The third exhibit is a queue ticket marked **PROTECTION: PLEASE WAIT**. A status
 
 “That the institutions had noticed the fire and were discussing the sprinkler.”
 
-Even the sprinkler raised a good question: how do you slow a coerced transfer without trapping an innocent person’s rent or wages? The answer is not “freeze everyone.” It is explainable holds, quick human review, clear appeals and a deadline. But in 2026 the machinery was still being designed, while the losses were already being counted.
+The sprinkler raised a harder question: how to slow coercion without trapping innocent people’s rent or wages? Not “freeze everyone,” but explainable holds, human review, clear appeals and deadlines. In 2026, the machinery was being designed while losses were counted.
 
 The future testimonials in this museum are fictional, not accounts from actual SBI customers or scam victims:
 
@@ -82,8 +82,8 @@ The future testimonials in this museum are fictional, not accounts from actual S
 ## What actually happened this week (October 17–24, 2026)
 
 - **October 19:** I4C warned about fake welfare-scheme and cashback advertisements using political deepfakes, advance-fee demands and UPI collect requests. It advised checking schemes through official department websites and reporting fraud promptly.[^2]
-- **October 21–23:** SBI disclosed a suspected exposure of customer data, then said it had individually informed the customers whose data it identified. SBI’s preliminary review found 3,897 records containing personal information among approximately 3,75,000 dark-web records; the investigation was not complete.[^1]
-- **October 23:** A government status report to the Supreme Court described 21,900-plus digital-arrest complaints involving over ₹647 crore in January–August and discussed safeguards still being developed. Separately, a financial-inclusion campaign running October 21–December 31 was announced for 2.70 lakh Gram Panchayats and Urban Local Bodies, including bank camps for re-KYC and digital-fraud awareness.[^3][^4]
+- **October 21–23:** SBI reported 3,897 records with personal information among about 3,75,000 dark-web records and said it had informed the affected customers it identified; its investigation was ongoing.[^1]
+- **October 23:** A government status report to the Supreme Court described 21,900-plus digital-arrest complaints involving over ₹647 crore in January–August and safeguards still being developed. A separate campaign covers 2.70 lakh Gram Panchayats and Urban Local Bodies, with bank re-KYC and fraud-awareness camps.[^3][^4]
 
 ## What you can do
 

@@ -1,0 +1,41 @@
+---
+title: "Fintech Brief — November 4, 2026"
+date: 2026-11-04T08:00:00+05:30
+draft: false
+tags: ["Fintech", "Daily Brief", "India", "SEBI", "RBI", "CCI", "UPI", "NPCI", "Funding"]
+categories: ["Daily Brief"]
+description: "SEBI opens a GIFT City depository-receipts channel for REITs and InvITs, CCI clears Kotak's buyout of Deutsche Bank's India retail and wealth business, RBI scraps export declarations for small service exporters, Fibe becomes the newest UPI app, and PowerUp Money raises $10 million."
+---
+
+# Fintech Brief — November 4, 2026
+
+## Today's Top Stories
+
+### SEBI opens the GIFT City door for REIT and InvIT depository receipts
+
+SEBI has issued **two circulars (dated November 2)** creating a formal framework for **depository receipts (DRs) backed by REIT and InvIT units**, listable on GIFT City's international exchanges — **India INX and NSE International Exchange** — to pull foreign capital into India's real estate and infrastructure trusts. The rules: DR holders and beneficial owners must be **non-residents of India**; a fresh DR issue needs **at least 75% unitholder approval** (waived when DRs ride along an initial unit offer or stay within a pre-approved limit); DRs **cannot be priced below** what domestic investors pay in the corresponding offering; existing unitholders get a tender opportunity if their units back DRs; and international-exchange disclosures must be **mirrored to Indian exchanges within 24 hours**. Merchant bankers must oversee issuance compliance, SEBI commits to comments within **7 working days**, and exchanges promise in-principle approvals in **15 working days**. SEBI also **cut the cooling-off period for offer-for-sale of illiquid privately listed InvITs from 12 weeks to 8 weeks** to improve liquidity. [SEBI circular](https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-issuance-of-depository-receipts-on-units-of-reits-_105558.html) · [Moneycontrol](https://www.moneycontrol.com/news/business/markets/sebi-allows-reits-invits-to-issue-depository-receipts-on-gift-city-exchanges-sets-75-percent-approval-norm-14066645.html) · [Economic Times](https://economictimes.indiatimes.com/markets/stocks/news/sebi-allows-reits-invits-to-tap-overseas-investors-through-depository-receipts/articleshow/135478239.cms) · [Hindu BusinessLine](https://www.thehindubusinessline.com/money-and-banking/sebi-allows-reits-invits-to-raise-foreign-funds-through-depository-receipts/article71657854.ece)
+
+Consumer takeaway: this is a wholesale-capital channel — foreign investors, including NRIs, gain an easier route into Indian real estate and infrastructure income streams. For domestic unitholders, the 75% consent bar and tender option are the protections that matter; watch that trusts don't lean on the pre-approved-limit exemption to dilute existing holders without a fresh vote.
+
+### CCI clears Kotak's ₹282-crore buyout of Deutsche Bank's India retail and wealth business
+
+The **Competition Commission of India approved (November 3)** Kotak Mahindra Bank's acquisition of **Deutsche Bank AG's retail banking, private banking and wealth management businesses in India**, structured as a **slump sale** for cash consideration of about **₹281.7 crore (roughly $30 million)** plus adjustments. The transferred book carries about **₹29,000 crore in loans, ₹16,000 crore in deposits and ₹10,500 crore in assets under management**, serving roughly **1.5 lakh customers**, with about **1,000 Deutsche Bank employees** expected to move to Kotak and **16 of Deutsche Bank's 17 India branches** transferring — the Fort, Mumbai branch stays with Deutsche Bank. The deal, announced in June, still needs other regulatory approvals; completion is expected by **September 2027**. [Business Standard](https://www.business-standard.com/companies/news/cci-clears-kotak-bank-s-acquisition-of-deutsche-bank-india-retail-business-126110301856_1.html) · [Economic Times](https://economictimes.indiatimes.com/industry/banking/finance/banking/cci-approves-kotak-mahindra-banks-acquisition-of-deutsche-banks-india-retail-banking-business/articleshow/135501810.cms) · [CNBC-TV18](https://www.cnbctv18.com/business/companies/kotak-mahindra-bank-gets-cci-nod-to-buy-deutsche-banks-india-retail-wealth-business-20026236.htm)
+
+Consumer takeaway: if you bank with Deutsche Bank India's retail or wealth arms, your relationship migrates to Kotak over the next year — and Deutsche Bank must obtain customer consent where required. Deposits and loans carry over, but it's worth reviewing fee schedules, wealth-product menus and card benefits when the account transfer notices arrive, since they will be rewritten on Kotak terms.
+
+### RBI scraps export declarations for small service exporters, trims import reporting
+
+RBI has notified the **Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026** (Notification No. **FEMA 23(R)/(2)/2026-RB, dated November 2, effective October 1, 2026**). Under the relaxed rules, **resident individuals exporting services no longer need to file a separate Export Declaration Form (EDF)** — sharing payment details with their authorised dealer bank is enough — and other exporters get the same relief for inward remittances **up to ₹10 lakh**. On the import side, service-import transactions need IDPMS reporting only when **the importer is not a resident individual and the invoice or contract value exceeds ₹10 lakh**. [News On Air](https://newsonair.gov.in/rbi-simplifies-forex-reporting-rules-for-small-value-service-exports-and-imports) · [TaxGuru](https://taxguru.in/rbi/rbi-relaxes-fema-edf-idpms-reporting-rules-services-october-2026.html)
+
+Consumer takeaway: freelancers and small service exporters — designers, consultants, IT contractors billing foreign clients — lose a paperwork headache at the bank. Compliance is not exemption: FEMA obligations beyond the declaration still apply, so keep your invoices and remittance records clean.
+
+### Fibe becomes the newest UPI app after NPCI TPAP approval
+
+Digital lending platform **Fibe has launched UPI payments after securing NPCI approval to operate as a Third-Party Application Provider (TPAP)**, expanding from lending into everyday payments. The app — open to all users in India, including non-customers — supports payments through **linked bank accounts, RuPay credit cards and eligible credit lines on UPI**. [The Head & Tale](https://theheadandtale.com/fintech-news/fibe-launches-upi-payments-after-securing-npci-approval)
+
+Consumer takeaway: more app choice is fine, but a lender-owned UPI app is also a data funnel — payment behaviour plus credit appetite in one place. Payments under ₹2,000 and P2P transfers remain free, and the MDR on higher-value merchant payments lands only after Diwali (November 8), on a date NPCI is yet to notify.
+
+## Quick hits
+
+- **PowerUp Money raises $10 million:** The Bengaluru wealthtech founded by Uni Cards co-founder **Prateek Jindal** raised **$10 million (~₹100 crore)** led by **Flourish Ventures**, with Peak XV, Accel, Blume, Kae Capital, 8i Ventures and DeVC participating — valuing it at about **$73 million** (ET-reported). Its **1.5 lakh+ users** track **₹2.5 lakh crore** in mutual fund portfolios; capital goes to AI-led wealth management beyond mutual funds into stocks and ETFs. [PTI/Rediff](https://money.rediff.com/news/market/powerup-money-raises-10m-from-flourish-ventures-for-ai-wealth/57463120261103) · [YourStory](https://yourstory.com/2026/11/startup-news-updates-daily-roundup-november-3-2026)
+- **RBI debunks fake note-shortage circular:** A forged circular carrying RBI's name, logo and the Governor's forged signature claimed a **shortage of ₹10, ₹20 and ₹50 notes** ahead of Diwali. RBI says sufficient stock of all denominations is available in vaults and currency chests — and urges the public to trust only official channels. Classic festival-season misinformation; don't forward it. [Moneycontrol](https://www.moneycontrol.com/news/business/personal-finance/rbi-clarifies-no-shortage-of-rs-10-rs-20-and-rs-50-notes-ahead-of-diwali-cautions-people-against-forged-circular-14067698.html) · [Economic Times](https://m.economictimes.com/wealth/save/rbi-clarifies-about-fake-circular-claiming-there-shortage-of-rs-10-rs-20-and-rs-50-currency-notes-this-diwali/articleshow/135485566.cms)

@@ -1,0 +1,41 @@
+---
+title: "Fintech Brief — November 8, 2026"
+date: 2026-11-08T08:00:00+05:30
+draft: false
+tags: ["Fintech", "Daily Brief", "India", "RBI", "Cybersecurity", "UPI", "NPCI", "SEBI", "NSE", "Funding", "Gold Loans"]
+categories: ["Daily Brief"]
+description: "RBI gives non-bank payment firms a six-hour breach-reporting clock and a 12-hour SIM-change cooling period, NPCI tells the Supreme Court merchants cannot pass UPI's 0.4% MDR to customers, NSE rewrites closing auctions and F&O settlement from December 7, and TPG commits up to ₹800 crore to Kirloskar's lending arm."
+---
+
+# Fintech Brief — November 8, 2026
+
+## Today's Top Stories
+
+### RBI gives non-bank payment firms a six-hour breach clock and a SIM-change cooling period
+
+Days after tightening bank API security, RBI has turned to the non-bank side of payments. A **consolidated Master Direction dated November 5**, reported November 7, merges RBI's older instructions on third-party ATM switch providers and payment-system audits into one cyber-resilience and digital-payment-security rulebook covering **payment aggregators, prepaid payment instrument issuers, card networks and white-label ATM operators**. The sharpest consumer-relevant clauses: operators get just **six hours to report cyberattacks, critical-infrastructure outages, internal fraud and settlement delays** to the regulator; they must enforce **device binding**, end inactive sessions automatically, and **detect or block remote-access apps** while a payment is in use; and any change to a customer's registered mobile number or email triggers a **minimum 12-hour cooling period** before online transactions work on that instrument. Governance moves up to the board — a technology-risk committee meets at least quarterly, disaster recovery must sit in a **different seismic zone** with drills twice a year and near-zero recovery-point objectives, and annual system audits are due within two months of financial year-end with a **three-month cap on fixing open observations**. Large and medium operators comply immediately; small ones have until **April 1, 2028**. [NDTV Profit](https://www.ndtvprofit.com/business/rbi-consolidates-cybersecurity-rules-prescribes-new-safeguards-for-non-bank-payment-firms-12297045) · [PSU Watch](https://www.psuindia.com/finance-banking/consolidated-rbi-cybersecurity-framework-may-drive-up-compliance-and-infrastructure-costs-for-non-bank-payment-operators-562051)
+
+Consumer takeaway: the 12-hour cooling period is an anti-SIM-swap tripwire — if you get an alert that your number or email was changed and you didn't do it, you now have a enforced window to call the provider before online payments work. Note the gap, though: the six-hour clock runs to RBI, not to you; there is still no rule forcing the operator to tell affected users directly.
+
+### NPCI to Supreme Court: merchants cannot pass the new UPI fee to customers
+
+In its counter-affidavit in *Anjan Datta v. Union of India* — the PIL challenging the UPI MDR framework — NPCI has told the Supreme Court that **merchants are strictly prohibited from passing the charge on to customers**, calling the ban a "mandatory and binding direction" enforceable through contract, not a mere assurance, and that **UPI apps cannot levy platform fees** on payments. The defence, filed November 3 and reported through November 6, frames the fee as narrow: **up to 0.4% only on person-to-merchant payments above ₹2,000**, touching **about 4% of P2M volume** while 96% stays free; person-to-person transfers stay free at any value, and small merchants receiving **up to ₹1 lakh a month** through QR codes keep zero MDR entirely — with a **dedicated adoption fund for merchants with turnover up to ₹20 lakh, financed by 5% of every entity's MDR share**. The Court had declined an interim stay in September; the go-live itself remains unnotified, with reports pointing to a possible **January 1, 2027** start. [LiveLaw](https://www.livelaw.in/top-stories/merchants-cannot-pass-on-upi-charges-to-customers-mdr-necessary-to-sustain-upi-ecosystem-npci-tells-supreme-court-557510) · [MediaNama](https://www.medianama.com/2026/11/223-npci-defends-upi-mdr-charges-supreme-court) · [Elets BFSI](https://bfsi.eletsonline.com/npci-upi-mdr-supreme-court)
+
+Consumer takeaway: if a shopkeeper adds a "UPI charge" line to your bill, that is a violation of the very framework NPCI is defending — report it to your PSP app and NPCI's dispute channels. The quieter pass-through is prices: a ₹2,000+ merchant absorbing 0.4% may nudge them, which no affidavit can stop.
+
+### NSE rewrites closing auctions and F&O expiry settlement from December 7
+
+Two NSE circulars issued **November 6** implement SEBI's **October 15** review of market structure, effective **December 7**: the closing auction session shrinks to **10 minutes (3:30–3:40 pm)** with a revised closing-price discovery method for eligible stocks; **stock and index derivatives trading extends to 3:45 pm**; futures price bands are revised; and — the big one for retail traders — the **calculation of final settlement prices on expiry day changes** for both stock and index derivatives. [Economic Times](https://economictimes.indiatimes.com/markets/stocks/news/nse-overhauls-closing-price-discovery-changes-fo-expiry-settlement-rules-from-december-7/articleshow/135631400.cms) · [BW Businessworld](https://www.businessworld.in/article/nse-revises-closing-auction-extends-f-o-trading-hours-from-7-december-632608)
+
+Consumer takeaway: expiry-day games get costlier. A differently-computed settlement price narrows the last-hour manipulation window that options buyers have long complained about, and a shorter auction means the closing print tracks real trading rather than a thin, gameable tape.
+
+### The week's cheques: TPG and Swiss debt funds back lending, not payments
+
+**TPG's Rise Funds** are investing **₹525 crore** in the first tranche into **Arka Fincap**, Kirloskar Oil Engines' NBFC, with a second **₹275 crore** tranche tied to milestones — up to **₹800 crore** total, diluting KOEL to about 62.6% while Arka (₹8,000 crore AUM, 146 branches across ten states) pivots toward secured retail lending, now only ~₹1,000 crore of its book. Meanwhile **Muthoot Microfin** has begun raising **$40 million in external debt** — $25 million from responsAbility, $15 million from BlueOrchard — expecting completion by December after earlier delays from West Asia-crisis hedging costs. Context from Inc42's weekly tracker: **$255 million across 20 deals (Nov 2–6)**, with GIVA ($103M) and EloElo ($80M) alone making up ~72% of it. [Economic Times](https://economictimes.indiatimes.com/industry/banking/finance/tpg-invests-525-crore-in-kirloskar-backed-arka-fincap/articleshow/135627726.cms) · [Business Upturn](https://businessupturn.com/business/kirloskar-oil-engines-enters-into-shareholders-agreement-for-inr-525-crore-investment-in-arka-fincap-by-tpg) · [Economic Times](https://economictimes.indiatimes.com/industry/banking/finance/muthoot-microfin-to-raise-40-million-from-responsability-blueorchard/articleshow/135626979.cms) · [MalikTimes](https://maliktimes.in/indian-startup-funding-this-week-nov-2026)
+
+Consumer takeaway: this week's capital went to collateral-backed lending — gold, property, wholesale-to-retail NBFC pivots. More funded lenders means more credit offers in your inbox; compare effective annual rates, not EMIs, before signing.
+
+## Quick hits
+
+- **Gold-loan NPAs double under RBI's new rules.** Muthoot Finance's Stage 3 NPAs more than doubled to **₹7,267 crore** in the September quarter after the April 1 framework introduced tiered LTV (85%/80%/75%), end-use classification and EMI-based repayments — short tenures and monthly EMIs are driving the spike. [Financial Express](https://www.financialexpress.com/business/news/short-tenure-loans-monthly-emis-drive-up-gold-loan-npas-muthoot-finance-md/4374640)
+- **RBI's draft Priority Sector Lending Directions, 2026** (released November 5, comments open until **November 26**) propose that gold-collateral agriculture loans stay PSL-eligible and change how banks count LC-discounted bills. [Mint](https://www.livemint.com/money/personal-finance/goldbacked-agriculture-loans-rbi-proposes-changes-to-priority-sector-lending-rules-what-could-change-for-borrowers-11794038739503.html)

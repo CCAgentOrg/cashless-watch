@@ -1,0 +1,36 @@
+---
+title: "Fintech Brief — November 12, 2026"
+date: 2026-11-12T08:00:00+05:30
+draft: false
+tags: ["Fintech", "Daily Brief", "India", "RBI", "SEBI", "NPCI", "UPI", "MDR", "Funding"]
+categories: ["Daily Brief"]
+description: "RBI consolidates domestic money transfer rules into one rulebook, SEBI orders KYC/AEOI rework under the new income-tax code, NPCI still hasn't notified a UPI MDR date while payments companies count the revenue, and October fintech funding settles at $76 million as Tide commits ₹3,100 crore to India."
+---
+
+# Fintech Brief — November 12, 2026
+
+## Today's Top Stories
+
+### RBI consolidates domestic money transfer rules — limits unchanged, safeguards tightened
+
+The RBI on Wednesday issued the [Reserve Bank of India (Domestic Money Transfer) Directions, 2026](https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13752&Mode=0), consolidating its October 2011 and July 2024 DMT circulars into a single framework effective immediately, and repealing both ([Business Standard](https://www.business-standard.com/industry/banking/rbi-consolidates-money-transfer-rules-allows-50-000-cash-neft-transfers-126111101533_1.html); [Economic Times](https://economictimes.indiatimes.com/news/economy/policy/rbi-issues-new-domestic-money-transfer-guidelines-retains-rs-50000-neft-remittance-limit/articleshow/135740558.cms); [Hindustan Times/PTI](https://www.hindustantimes.com/india-news/rbi-issues-domestic-transfer-norms-walk-in-customers-can-send-up-to-rs-50k-101794412658123.html)). Nothing moves for existing users: a walk-in customer without an account at a branch can still remit up to ₹50,000 cash-to-account via NEFT; business-correspondent and ATM cash pay-in stays at ₹5,000 per transaction with a ₹25,000 monthly cap per remitter; cash pay-out to beneficiaries without bank accounts remains ₹10,000 per transaction, ₹25,000 per beneficiary a month. What changes is the compliance spine: remitter registration tied to a verified mobile number and self-certified officially valid document under the KYC Directions, 2025; an additional factor of authentication on every transaction; remitter details and a cash-remittance identifier carried inside every IMPS/NEFT message; velocity checks, credit alerts to customers, immediate investigation of unusual credit spikes and reporting of suspicious transactions; settlement only on RBI-approved systems in real or near-real time. Card-to-card transfers are excluded, and grievances fall under the RBI-Integrated Ombudsman Scheme, 2026. The framework exists for people — particularly migrant workers — who lack formal identity or address proof, which is exactly why both the limits and the fraud safeguards matter.
+
+Consumer takeaway: the ₹50,000 branch window and ₹5,000 BC limit are now hard law, not circular folklore. If a BC agent quotes a lower "agent limit" to reroute you, or levies an undeclared "commission" on a remittance, ask for the fee schedule — charges must be reasonable and grievance redressal runs through the ombudsman.
+
+### SEBI tells intermediaries: new income-tax law, new KYC homework
+
+On Wednesday night, SEBI [directed](https://legal.economictimes.indiatimes.com/news/regulators/sebi-directs-market-intermediaries-to-update-kyc-tax-reporting-systems-under-new-income-tax-rules/135743983) registered market intermediaries to rework KYC and tax-reporting for the Automatic Exchange of Information (AEOI) framework under the Income-tax Act, 2025 and Income-tax Rules, 2026, which replaced the old tax code from April 1, 2026. Intermediaries that are Reporting Financial Institutions must comply with Rules 238–240: fold FATCA and CRS due diligence into onboarding, refresh customer self-certifications, tighten identification of "controlling persons", classify existing versus new accounts, and update reporting software for the mandatory fields of Form 166 — SEBI warns missing fields will trigger validation errors on the Income Tax portal. FATCA/CRS self-certifications must be uploaded to KYC Registration Agencies, and the onus of obtaining and reporting them "shall lie solely with the respective intermediaries." The circular builds on SEBI's 2015 and 2024 FATCA/CRS circulars and points to CBDT's July 24, 2026 guidance note.
+
+Consumer takeaway: expect your broker or fund platform to re-ask FATCA/CRS questions. Answer them accurately rather than clicking through — these declarations feed cross-border tax reporting under your name.
+
+### UPI MDR: still no date, but payments companies are already spending the money
+
+Two days past Deepavali, NPCI has still not notified an effective date for the 0.4% MDR on UPI person-to-merchant transactions above ₹2,000 (capped at ₹300 for payments of ₹75,000 and above), telling The Hindu ["there is no announcement on this at the moment"](https://www.thehindu.com/business/Economy/two-days-past-deepavali-npci-yet-to-announce-a-date-for-upi-mdr-rollout/article71689098.ece/amp) despite having promised a date "immediately" after Diwali; the rollout was originally due October 15. The industry, meanwhile, has done the math: Pine Labs CEO Amrish Rau told analysts the MDR could unlock ₹80–230 crore of annual revenue for his company, and said it will deploy about 10 lakh soundboxes to capture merchant UPI transactions it had written off as unmonetisable; Paytm has previously pegged its own MDR windfall at ₹700 crore ([Medianama](https://www.medianama.com/2026/11/223-upi-mdr-annual-revenue-pine-labs)). Business Standard reports banks plan to plough MDR gains back into tech, security and merchant expansion ([Business Standard](https://www.business-standard.com/industry/banking/banks-to-plough-back-upi-mdr-gains-into-tech-security-and-expansion-126110900770_1.html)).
+
+Consumer takeaway: nothing changes at checkout until a date is notified, and the fee sits on the merchant's side of the counter — NPCI has told the Supreme Court merchants cannot pass it to customers. If a shop asks you to "pay extra UPI charges" on a bill above ₹2,000 today, that is a business choice, not a rule.
+
+### October was quiet for fintech funding; Tide commits ₹3,100 crore anyway
+
+Indian fintechs raised $76 million across six deals in October — the month's largest being healthcare-platform Even's $50 million from Khosla Ventures and Alpha Wave Global, with StockGro and Fission Labs at $10 million each, lender-borrower connector CredFix raising a $2 million seed from Stargazer Growth and Tanglin Venture Partners, and stablecoin cross-border infrastructure play Saber seeding from Tether and Titan ([ETBFSI](https://bfsi.economictimes.indiatimes.com/articles/fintech-funding-october-2026-indian-fintechs-raise-usd-76-million-across-6-deals/135737055)). Separately, UK SME-banking platform Tide said it will invest about £250 million (₹3,100 crore) in India by 2030 — potentially £500 million in the longer term — scaling its Hyderabad centre of excellence, which already employs around 800 people ([Business Standard/PTI](https://www.business-standard.com/companies/news/uk-based-tide-plans-to-invest-3-100-crore-in-india-in-next-four-years-126111100746_1.html)).
+
+Consumer takeaway: a thin funding month doesn't mean quiet product months. Capital is concentrating in payments monetisation (MDR-linked) and SME banking — the two areas where consumer-facing pricing is most likely to change next.

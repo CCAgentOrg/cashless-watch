@@ -1,0 +1,36 @@
+---
+title: "Fintech Brief — November 20, 2026"
+date: 2026-11-20T08:00:00+05:30
+draft: false
+tags: ["Fintech", "Daily Brief", "India", "UPI", "MDR", "NPCI", "Paytm", "City Union Bank", "Razorpay", "IPO", "Funding"]
+categories: ["Daily Brief"]
+description: "UPI MDR slips past 2027 elections and payment stocks tumble, City Union Bank suspends an account's NEFT/RTGS after an unauthorised transfer, Razorpay readies a $600 million IPO filing, and Paytm writes a ₹200 crore cheque for Singapore."
+---
+
+# Fintech Brief — November 20, 2026
+
+## Today's Top Stories
+
+### UPI MDR slips again — past Diwali, possibly past the 2027 elections — and payment stocks pay the price
+
+The merchant discount rate (MDR) on select UPI transactions, already deferred once from its original October 15 date, now [faces another postponement — potentially until after assembly elections in five states in the first half of 2027](https://www.financialexpress.com/market/paytm-pine-labs-one-mobikwik-shares-fall-nearly-9-on-upi-mdr-rollout-delay-4388378), per Financial Express reporting on November 19. Government, RBI and NPCI have not agreed on a timeline, with deferment until after the Uttar Pradesh polls described by one senior industry official as a "worst-case scenario" rather than the likeliest outcome. Merchants and trade associations remain opposed, and the December festive-plus-pre-budget season gives everyone a reason to wait. Payment stocks took the hit: [Paytm fell up to 7% on the BSE, Pine Labs dropped about 5.5% and MobiKwik slid roughly 9%](https://www.business-standard.com/markets/news/paytm-pine-labs-shares-drop-up-to-7-amid-concerns-on-upi-mdr-delay-126111900221_1.html) intraday on Thursday. The stakes are real — [Jefferies estimates UPI MDR at 8-12% of Paytm's FY27 EPS and about 28% of FY28 profit before tax](https://www.financialexpress.com/market/paytm-pine-labs-one-mobikwik-shares-fall-nearly-9-on-upi-mdr-rollout-delay-4388378), and pegs Pine Labs' incremental FY28 revenue at ₹160 crore, roughly 20% of its EBIT estimates. Meanwhile, NPCI's UPI and Services Steering Committee has [cleared a flat ₹5 MDR for merchant-to-merchant (B2B) UPI transfers](https://www.business-standard.com/industry/banking/flat-5-mdr-fee-likely-for-b2b-upi-payments-against-feared-300-charge-126111801534_1.html) — far below the ₹80-300 that the 0.4% framework would have charged on ₹20,000-75,000 transfers, and a direct answer to trader-body pleas for exemption. UPI has been MDR-free since January 1, 2020; the September framework proposed 0.4% on person-to-merchant transactions above ₹2,000, capped at ₹300.
+
+Consumer takeaway: nothing changes at the checkout yet — no fee has actually gone live. But watch what a flat ₹5 on business-to-business payments means for the cost embedded in whatever you buy: merchants pass charges on, quietly, into prices.
+
+### City Union Bank suspends an account's NEFT and RTGS gateways after an unauthorised transfer
+
+[City Union Bank detected an unauthorised transaction through the NEFT system in one customer account on November 16](https://www.livemint.com/money/city-union-bank-shuts-neft-rtgs-gateway-customer-following-unauthorised-transaction-what-mean-changes-for-you-11795063791014.html) and, in an exchange filing on November 18, said it has shut down that account's NEFT and RTGS gateways while technical specialists investigate. The bank says core operations, financial performance and business continuity are unaffected, and the freeze applies only to the affected account — other customers bank as usual. The bank had reported a 26% rise in Q2 net profit to ₹416 crore just weeks earlier. The episode lands in the same month the RBI told banks to [lock down API-based fund-transfer links to NBFCs after two Mumbai non-bank lenders lost about $2 million to over 700 unauthorised transfers](https://the420.in/precautionary-halt-on-neft-and-rtgs-gateways-at-city-union-bank-amid-security-probe) — unauthorised money movement is becoming the sector's recurring nightmare, from wholesale API rails to a single retail account.
+
+Consumer takeaway: if a big transfer vanishes from your account, the six-hour reporting window matters — inform the bank immediately, because money moved through NEFT/RTGS is notoriously hard to claw back once settled. And check your statement for small "test" transactions; fraudsters rehearse with ₹1 before striking.
+
+### Razorpay readies a public IPO filing as early as next week — up to $600 million
+
+Tiger Global-backed Razorpay is [preparing to publicly file its IPO documents as early as next week, targeting up to $600 million and a listing as soon as February 2027](https://www.bloomberg.com/news/articles/2026-11-19/tiger-backed-razorpay-said-to-near-public-filing-for-india-ipo), Bloomberg reported on November 19. The payments firm confidentially filed in June 2026 and received SEBI's observations on November 3; roadshows would begin immediately after the public filing. Axis Capital, Kotak Mahindra Capital, Citigroup, Goldman Sachs and JPMorgan are advising, and the mix of fresh shares and offer-for-sale is reportedly aimed at [a valuation near $5 billion — a haircut from the $7.5 billion of its 2021 private round](https://www.kotakneo.com/news/ipos/razorpay-ipo-everything-investors-need-to-know). The filing would add the country's biggest payments-acquirer name to a 2026 IPO market that has already raised about $18.6 billion, closing in on 2025's record $22.4 billion.
+
+Consumer takeaway: a listed Razorpay means quarterly disclosures on merchant fees, chargebacks and data practices — the closest thing payments merchants currently have to a public scoreboard on the platforms that hold their money.
+
+### Funding note: Paytm buys into Singapore via Funding Societies; InPrime raises ₹101 crore
+
+Paytm parent One 97 Communications told the exchanges on November 19 that [Paytm Singapore will invest up to ₹200 crore in Funding Societies' subsidiaries — ₹162 crore (up to SGD 21.8 million) for a 19.1% stake in its payments arm CardUp, with about ₹38 crore more possible in an affiliate](https://www.businesstoday.in/latest/corporate/story/paytm-to-invest-up-to-rs200-crore-in-funding-societies-subsidiaries-acquire-19-1-stake-in-cardup-568639-2026-11-19). Paytm will license its payments and lending technology to CardUp under a five-year partnership with technology fees and revenue share — the "partner-operated" international model, monetising the stack without running local operations. Completion is expected by May 20, 2027. On the funding desk, [Bengaluru NBFC InPrime Finserv raised ₹101 crore (about $10.7 million) in a Series B led by Dutch development bank FMO](https://m.economictimes.com/small-biz/entrepreneurship/inprime-finserv-raises-10-7-million-in-series-b-funding-led-by-fmo/articleshow/135989279.cms), with existing investors Z47 and Pravega Ventures participating, taking total funding to ₹190 crore. The informal-economy lender — ₹333 crore AUM, 0.80% GNPA as of September 30 — will push into micro-mortgages and agentic-AI underwriting.
+
+Consumer takeaway: development-bank capital flowing into informal-sector lenders is usually good news for shopkeepers and self-employed borrowers banks won't touch — but micro-mortgages are new territory, so read the fine print on anything securing a loan against your home.

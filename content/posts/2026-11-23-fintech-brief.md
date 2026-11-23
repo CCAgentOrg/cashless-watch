@@ -31,5 +31,5 @@ Consumer takeaway: development-finance money leading an NBFC round is a bet that
 
 ## Also in the loop
 
-- **RBI meets NBFCs today**: the Governor and Deputy Governors sit down with NBFC executives today, with [microfinance stress, gold loans and cyber-security](https://www.businesstoday.in/) on the agenda — the same sector that just lost ₹300 crore to the AI-assisted hack wave [covered here yesterday](/posts/2026-11-22-fintech-brief/).
+- **RBI meets NBFCs today**: the Governor and Deputy Governors sit down with NBFC executives today, with microfinance stress, gold loans and cyber-security reported (Business Today) as the agenda — the same sector that just lost ₹300 crore to the AI-assisted hack wave [covered here yesterday](/posts/2026-11-22-fintech-brief/).
 - **Paytm goes cross-border**: Paytm will [partner with Singapore's Funding Societies and invest up to ₹200 crore (~$21.4 million)](https://www.reuters.com/world/asia-pacific/indias-paytm-partners-with-singapores-funding-societies-plans-up-21-million-2026-11-19), extending its lending distribution into Southeast Asian MSME credit.
